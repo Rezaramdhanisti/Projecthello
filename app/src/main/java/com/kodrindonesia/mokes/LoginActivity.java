@@ -1,4 +1,4 @@
-package com.tunatech.mokes;
+package com.kodrindonesia.mokes;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -21,8 +21,8 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.tunatech.mokes.Domain.Authentication;
-import com.tunatech.mokes.Domain.UserLoginTask;
+import com.kodrindonesia.mokes.Domain.Authentication;
+import com.kodrindonesia.mokes.Domain.UserLoginTask;
 
 /**
  * A login screen that offers login via email/password.

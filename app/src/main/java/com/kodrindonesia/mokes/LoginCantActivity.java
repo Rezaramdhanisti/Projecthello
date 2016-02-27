@@ -1,4 +1,4 @@
-package com.tunatech.mokes;
+package com.kodrindonesia.mokes;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

@@ -1,4 +1,4 @@
-package com.tunatech.mokes;
+package com.kodrindonesia.mokes;
 
 import retrofit.Call;
 import retrofit.http.Body;

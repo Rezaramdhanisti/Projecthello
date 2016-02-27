@@ -1,4 +1,4 @@
-package com.tunatech.mokes;
+package com.kodrindonesia.mokes;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,7 +14,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
 /**
  * Created by royyan on 2/11/2016.

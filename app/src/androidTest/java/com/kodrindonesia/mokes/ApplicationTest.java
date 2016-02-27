@@ -1,4 +1,4 @@
-package com.tunatech.mokes;
+package com.kodrindonesia.mokes;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

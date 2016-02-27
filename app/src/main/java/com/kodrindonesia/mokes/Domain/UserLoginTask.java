@@ -1,8 +1,6 @@
-package com.tunatech.mokes.Domain;
+package com.kodrindonesia.mokes.Domain;
 
 import android.os.AsyncTask;
-
-import java.io.Serializable;
 
 /**
  * Represents an asynchronous login/registration task used to authenticate

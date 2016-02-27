@@ -1,4 +1,4 @@
-package com.tunatech.mokes;
+package com.kodrindonesia.mokes;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,10 +16,10 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.tunatech.mokes.Domain.Authentication;
-import com.tunatech.mokes.MKIOS.FragmentLogin;
-import com.tunatech.mokes.MKIOS.FragmentMKiosDashBoard;
-import com.tunatech.mokes.MKIOS.UserLoginMKios;
+import com.kodrindonesia.mokes.Domain.Authentication;
+import com.kodrindonesia.mokes.MKIOS.FragmentLogin;
+import com.kodrindonesia.mokes.MKIOS.FragmentMKiosDashBoard;
+import com.kodrindonesia.mokes.MKIOS.UserLoginMKios;
 
 import java.util.ArrayList;
 import java.util.List;

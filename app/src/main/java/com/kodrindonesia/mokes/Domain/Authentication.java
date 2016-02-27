@@ -1,4 +1,4 @@
-package com.tunatech.mokes.Domain;
+package com.kodrindonesia.mokes.Domain;
 
 import java.io.Serializable;
 
