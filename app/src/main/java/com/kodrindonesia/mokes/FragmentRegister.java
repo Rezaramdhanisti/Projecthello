@@ -17,11 +17,7 @@ import android.widget.Toast;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import retrofit.Call;
 import retrofit.Callback;
-import retrofit.GsonConverterFactory;
-import retrofit.Response;
-import retrofit.Retrofit;
 
 /**
  * Created by royyan on 2/9/2016.
@@ -117,48 +113,6 @@ public class FragmentRegister extends Fragment {
                 cancel = true;
                 break;
             }
-            Gson gson = new GsonBuilder()
-                    .setDateFormat("yyyy-MM-dd'T'HH:mm:ssZ")
-                    .create();
-
-            Retrofit retrofit = new Retrofit.Builder()
-                    .baseUrl("http://mokes.kodrindonesia.com/api/")
-                    .addConverterFactory(GsonConverterFactory.create(gson))
-                    .build();
-
-            UserApi user_api = retrofit.create(UserApi.class);
-
-            Call<Users> call = user_api.Register("rezaandroid", "reza@gmailandroid.com");
-
-            call.enqueue(new Callback<Users>() {
-                @Override
-                public void onResponse(Response<Users> response, Retrofit retrofit) {
-//                   if(response.body().code=="200") {
-                       Toast.makeText(getActivity(),("Registrasi Berhasil"),Toast.LENGTH_SHORT).show();
-//                   }
-//                    for (Users.UserItem user : response.body().getUsers()) {
-//                        etPass.append("Id = " + String.valueOf(user.getId()) +
-//                                        System.getProperty("line.separator") +
-//                                        "Email = " + user.getEmail() +
-//                                        System.getProperty("line.separator") +
-//                                        "Password = " + user.getPassword() +
-//                                        System.getProperty("line.separator") +
-//                                        "Token Auth = " + user.getToken_auth() +
-//                                        System.getProperty("line.separator") +
-//                                        "Name = " + user.getName() +
-//                                        System.getProperty("line.separator") +
-//                                        "Updated at = " + user.getUpdated_at() +
-//                                        System.getProperty("line.separator")
-//                        );
-//                    }
-                }
-
-                @Override
-                public void onFailure(Throwable t)
-                {
-                    etEmail.setText(String.valueOf(t));}
-
-            });
 
 
         }

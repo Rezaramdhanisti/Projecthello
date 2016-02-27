@@ -23,6 +23,13 @@ import android.widget.Toast;
 
 import com.kodrindonesia.mokes.Domain.Authentication;
 import com.kodrindonesia.mokes.Domain.UserLoginTask;
+import com.kodrindonesia.mokes.api.UsersApi;
+import com.kodrindonesia.mokes.models.User;
+
+import retrofit.Callback;
+import retrofit.RestAdapter;
+import retrofit.RetrofitError;
+import retrofit.client.Response;
 
 /**
  * A login screen that offers login via email/password.
@@ -218,9 +225,36 @@ public class LoginActivity extends AppCompatActivity implements UserLoginTask.IU
             // Show a progress spinner, and kick off a background task to
             // perform the user login attempt.
             showProgress(true);
-            Log.d("MOKES","Email: " + email + " Password: " + password);
-            mAuthTask = new UserLoginTask(this, email, password);
-            mAuthTask.execute((Void) null);
+            Log.d("MOKES", "Email: " + email + " Password: " + password);
+
+            //Init retrofit
+            RestAdapter retrofit = new RestAdapter.Builder()
+                                                 .setEndpoint("http://mokes.kodrindonesia.com/api/v1/")
+                                                 .build();
+
+            //create service
+            UsersApi usersApi = retrofit.create(UsersApi.class);
+            usersApi.userLogin(email, password, new Callback<User>() {
+
+                @Override
+                public void success(User user, Response response) {
+                    try {
+                        String token = user.getToken();
+                        Log.d("MOKES","Login berhasil, TOKEN: " + token);
+                        goToHome();
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+
+                @Override
+                public void failure(RetrofitError error) {
+                    Log.d("MOKES","Please check your network connection");
+                }
+            });
+
+//            mAuthTask = new UserLoginTask(this, email, password);
+//            mAuthTask.execute((Void) null);
         }
     }
 
@@ -269,6 +303,23 @@ public class LoginActivity extends AppCompatActivity implements UserLoginTask.IU
             mProgressView.setVisibility(show ? View.VISIBLE : View.GONE);
             mLoginFormView.setVisibility(show ? View.GONE : View.VISIBLE);
         }
+    }
+
+    public void goToHome() {
+        Intent loggedIn = new Intent(this, MainActivity.class);
+        String email = mEmailView.getText().toString();
+        String password = mPasswordView.getText().toString();
+
+        Authentication data = new Authentication("Kodr Indonesia");
+        data.set_email(email);
+        data.set_saldo("Rp 20.000,-");
+
+        loggedIn.putExtra("auth", data);
+
+        this.startActivity(loggedIn);
+
+        Toast.makeText(this.getApplicationContext(), "Selamat Datang, Kodr Indonesia", Toast.LENGTH_SHORT).show();
+        showProgress(false);
     }
 
     @Override
