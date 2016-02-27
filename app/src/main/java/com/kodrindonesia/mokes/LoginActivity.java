@@ -218,6 +218,7 @@ public class LoginActivity extends AppCompatActivity implements UserLoginTask.IU
             // Show a progress spinner, and kick off a background task to
             // perform the user login attempt.
             showProgress(true);
+            Log.d("MOKES","Email: " + email + " Password: " + password);
             mAuthTask = new UserLoginTask(this, email, password);
             mAuthTask.execute((Void) null);
         }
@@ -279,7 +280,7 @@ public class LoginActivity extends AppCompatActivity implements UserLoginTask.IU
             String email = mEmailView.getText().toString();
             String password = mPasswordView.getText().toString();
 
-            Authentication data = new Authentication("Tuna Tech");
+            Authentication data = new Authentication("Kodr Indonesia");
             data.set_email(email);
             data.set_saldo("Rp 20.000,-");
 
@@ -287,7 +288,7 @@ public class LoginActivity extends AppCompatActivity implements UserLoginTask.IU
 
             this.startActivity(loggedIn);
 
-            Toast.makeText(this.getApplicationContext(), "Welcome", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this.getApplicationContext(), "Selamat Datang, Kodr Indonesia", Toast.LENGTH_SHORT).show();
             showProgress(false);
             finish();
         } else if (isUserUnknown) {
