@@ -5,4 +5,5 @@
     <color name="colorGrayDark">#888888</color>
     <color name="colorAccent">@color/colorPrimary</color>
     <color name="colorMainRed">@color/colorPrimary</color>
+    <color name="mainBackground">#edf0f5</color>
 </resources>
