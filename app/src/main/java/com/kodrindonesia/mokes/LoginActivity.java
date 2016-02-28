@@ -252,7 +252,7 @@ public class LoginActivity extends AppCompatActivity implements UserLoginTask.IU
                     try {
                         String token = user.getToken();
                         Log.d("MOKES","Login berhasil, TOKEN: " + token);
-                        goToHome();
+                        goToHome(user.getEmail(),user.getName());
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
@@ -316,12 +316,12 @@ public class LoginActivity extends AppCompatActivity implements UserLoginTask.IU
         }
     }
 
-    public void goToHome() {
+    public void goToHome(String email, String name) {
         Intent loggedIn = new Intent(this, MainActivity.class);
-        String email = mEmailView.getText().toString();
-        String password = mPasswordView.getText().toString();
+//        String email = mEmailView.getText().toString();
+//        String password = mPasswordView.getText().toString();
 
-        Authentication data = new Authentication("Kodr Indonesia");
+        Authentication data = new Authentication(name);
         data.set_email(email);
         data.set_saldo("Rp 20.000,-");
 
@@ -329,7 +329,7 @@ public class LoginActivity extends AppCompatActivity implements UserLoginTask.IU
 
         this.startActivity(loggedIn);
 
-        Toast.makeText(this.getApplicationContext(), "Selamat Datang, Kodr Indonesia", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this.getApplicationContext(), "Selamat Datang, " + name, Toast.LENGTH_SHORT).show();
         showProgress(false);
     }
 
