@@ -251,8 +251,7 @@ public class LoginActivity extends AppCompatActivity implements UserLoginTask.IU
                 public void success(User user, Response response) {
                     try {
                         String token = user.getToken();
-                        Log.d("MOKES","Login berhasil, TOKEN: " + token);
-                        goToHome(user.getEmail(),user.getName());
+                        Log.d("MOKES","Registrasi berhasil, TOKEN: " + token);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }

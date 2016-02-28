@@ -16,8 +16,13 @@ import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.kodrindonesia.mokes.api.Api;
+import com.kodrindonesia.mokes.api.UsersApi;
+import com.kodrindonesia.mokes.models.User;
 
 import retrofit.Callback;
+import retrofit.RetrofitError;
+import retrofit.client.Response;
 
 /**
  * Created by royyan on 2/9/2016.
@@ -118,17 +123,40 @@ public class FragmentRegister extends Fragment {
         }
 
 
-//        if (cancel) {
-//            focusView.requestFocus();
-//        } else {
-//
-//            Intent goingBack = new Intent();
+        if (cancel) {
+            focusView.requestFocus();
+        } else {
+
+            Intent goingBack = new Intent();
 //            for(EditText item : etarry) {
 //                goingBack.putExtra(String.valueOf(item.getId()),item.getText().toString());
 //            }
+
+            //create service
+            UsersApi usersApi = Api.connect(UsersApi.class);
+            usersApi.userRegister(etEmail.getText().toString(), etPass.getText().toString(), etFName.getText().toString(), new Callback<User>() {
+
+                @Override
+                public void success(User user, Response response) {
+                    try {
+//                        String token = user.getToken();
+//                        Log.d("MOKES","Login berhasil, TOKEN: " + token);
+//                        goToHome(user.getEmail(),user.getName());
+                        String code = user.getCode();
+                        String message = user.getMessage();
+                        Log.d("MOKES", "Registrasi berhasil, Code: " + code + " Message: " + message);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+
+                @Override
+                public void failure(RetrofitError error) {
+                    Log.d("MOKES", "Please check your network connection");
+                }
+            });
 //            context.FinishRegister(LoginCantActivity.RESULT_OK, goingBack);
-//
-//        }
+        }
     }
     private boolean isEmailValid(String email) {
         //TODO: Replace this with your own logic

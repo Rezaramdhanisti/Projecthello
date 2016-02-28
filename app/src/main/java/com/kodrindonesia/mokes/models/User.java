@@ -11,6 +11,8 @@ public class User {
     private String token;
     private String email;
     private String name;
+    private String code;
+    private String message;
 
     public String getToken() {
         return token;
@@ -34,5 +36,21 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 }
