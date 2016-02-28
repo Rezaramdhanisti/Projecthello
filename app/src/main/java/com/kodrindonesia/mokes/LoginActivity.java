@@ -21,8 +21,11 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.elmargomez.typer.Font;
+import com.elmargomez.typer.Typer;
 import com.kodrindonesia.mokes.Domain.Authentication;
 import com.kodrindonesia.mokes.Domain.UserLoginTask;
+import com.kodrindonesia.mokes.api.Api;
 import com.kodrindonesia.mokes.api.UsersApi;
 import com.kodrindonesia.mokes.models.User;
 
@@ -64,12 +67,13 @@ public class LoginActivity extends AppCompatActivity implements UserLoginTask.IU
         setContentView(R.layout.content_login);
         // Set up the login form.
         mEmailView = (EditText) findViewById(R.id.email);
+        mEmailView.setTypeface(Typer.set(getApplicationContext()).getFont(Font.ROBOTO_REGULAR));
         mEmailView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int id, KeyEvent event) {
 
-                if (id == EditorInfo.IME_ACTION_NEXT){
-                    if (mPasswordView != null){
+                if (id == EditorInfo.IME_ACTION_NEXT) {
+                    if (mPasswordView != null) {
                         mPasswordView.requestFocus();
                     }
                     return true;
@@ -79,6 +83,7 @@ public class LoginActivity extends AppCompatActivity implements UserLoginTask.IU
         });
 
         mPasswordView = (EditText) findViewById(R.id.password);
+        mPasswordView.setTypeface(Typer.set(getApplicationContext()).getFont(Font.ROBOTO_REGULAR));
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {
@@ -91,6 +96,7 @@ public class LoginActivity extends AppCompatActivity implements UserLoginTask.IU
         });
 
         Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
+        mEmailSignInButton.setTypeface(Typer.set(getApplicationContext()).getFont(Font.ROBOTO_REGULAR));
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -99,6 +105,7 @@ public class LoginActivity extends AppCompatActivity implements UserLoginTask.IU
         });
 
         Button mEmailRegisterButton = (Button) findViewById(R.id.form_register_button);
+        mEmailRegisterButton.setTypeface(Typer.set(getApplicationContext()).getFont(Font.ROBOTO_REGULAR));
         mEmailRegisterButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -106,7 +113,11 @@ public class LoginActivity extends AppCompatActivity implements UserLoginTask.IU
             }
         });
 
+        TextView loginStaticText = (TextView) findViewById(R.id.login_static_text);
+        loginStaticText.setTypeface(Typer.set(getApplicationContext()).getFont(Font.ROBOTO_REGULAR));
+
         TextView clickHere = (TextView) findViewById(R.id.login_click_here);
+        clickHere.setTypeface(Typer.set(getApplicationContext()).getFont(Font.ROBOTO_REGULAR));
         clickHere.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -228,12 +239,12 @@ public class LoginActivity extends AppCompatActivity implements UserLoginTask.IU
             Log.d("MOKES", "Email: " + email + " Password: " + password);
 
             //Init retrofit
-            RestAdapter retrofit = new RestAdapter.Builder()
-                                                 .setEndpoint("http://mokes.kodrindonesia.com/api/v1/")
-                                                 .build();
+//            RestAdapter retrofit = new RestAdapter.Builder()
+//                                                 .setEndpoint("http://mokes.kodrindonesia.com/api/v1/")
+//                                                 .build();
 
             //create service
-            UsersApi usersApi = retrofit.create(UsersApi.class);
+            UsersApi usersApi = Api.connect(UsersApi.class);
             usersApi.userLogin(email, password, new Callback<User>() {
 
                 @Override

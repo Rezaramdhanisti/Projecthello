@@ -10,12 +10,12 @@
 
     <!-- Login progress -->
     <ProgressBar
-    android:id="@+id/login_progress"
-    style="?android:attr/progressBarStyleLarge"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginBottom="8dp"
-    android:visibility="gone" />
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal|center_vertical" />
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -43,7 +43,8 @@
                 android:id="@+id/login_img_mokes"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/mokes"
-                android:scaleType="fitCenter"/>
+                android:scaleType="fitCenter"
+                android:layout_marginBottom="30dp"/>
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
@@ -61,7 +62,8 @@
                     android:layout_marginRight="37dp"
                     android:layout_marginLeft="37dp"
                     android:singleLine="true"
-                    android:focusableInTouchMode="true" />
+                    android:focusableInTouchMode="true"
+                    android:textSize="14sp" />
 
             </android.support.design.widget.TextInputLayout>
 >
@@ -85,8 +87,9 @@
                     android:layout_marginLeft="37dp"
                     android:layout_marginRight="37dp"
                     android:linksClickable="false"
-                    android:backgroundTint="#EF1414"
-                    android:focusableInTouchMode="true" />
+                    android:backgroundTint="@color/colorPrimary"
+                    android:focusableInTouchMode="true"
+                    android:textSize="14sp" />
 
             </android.support.design.widget.TextInputLayout>
 
@@ -105,7 +108,7 @@
                     android:textStyle="bold"
                     android:layout_marginLeft="35dp"
                     android:layout_marginRight="9dp"
-                    android:background="#ef1414"
+                    android:background="@drawable/button_rounded"
                     android:allowUndo="false"
                     android:textColor="#fefcfc" />
                 <Button
@@ -116,7 +119,7 @@
                     android:layout_marginBottom="10dp"
                     android:text="@string/action_register"
                     android:textStyle="bold"
-                    android:background="#EF1414"
+                    android:background="@drawable/button_rounded"
                     android:layout_weight="1"
                     android:layout_marginLeft="25dp"
                     android:layout_marginRight="25dp"
@@ -129,6 +132,7 @@
                 android:gravity="center"
                 android:layout_marginBottom="10dp">
                 <TextView
+                    android:id="@+id/login_static_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/login_static_txt"

@@ -33,7 +33,9 @@
             android:imeOptions="actionNext"
             android:maxLines="1"
             android:singleLine="true"
-            android:backgroundTint="#EF1414" />
+            android:backgroundTint="#EF1414"
+            android:textSize="12sp"
+            android:textAlignment="center" />
 
     </android.support.design.widget.TextInputLayout>
 
@@ -52,7 +54,8 @@
             android:imeOptions="actionNext"
             android:maxLines="1"
             android:singleLine="true"
-            android:backgroundTint="#EF1414" />
+            android:backgroundTint="#EF1414"
+            android:textSize="12sp" />
 
     </android.support.design.widget.TextInputLayout>
 
@@ -71,7 +74,8 @@
             android:imeOptions="actionNext"
             android:maxLines="1"
             android:singleLine="true"
-            android:backgroundTint="#EF1414" />
+            android:backgroundTint="#EF1414"
+            android:textSize="12sp" />
 
     </android.support.design.widget.TextInputLayout>
 
@@ -90,7 +94,8 @@
             android:imeOptions="actionNext"
             android:maxLines="1"
             android:singleLine="true"
-            android:backgroundTint="#EF1414" />
+            android:backgroundTint="#EF1414"
+            android:textSize="12sp" />
 
     </android.support.design.widget.TextInputLayout>
 
@@ -109,7 +114,8 @@
             android:inputType="textPassword"
             android:maxLines="1"
             android:singleLine="true"
-            android:backgroundTint="#EF1414" />
+            android:backgroundTint="#EF1414"
+            android:textSize="12sp" />
 
     </android.support.design.widget.TextInputLayout>
 
@@ -140,7 +146,8 @@
             android:layout_weight="1"
             android:layout_marginLeft="35dp"
             android:layout_marginRight="35dp"
-            android:background="#EF1414" />
+            android:background="@drawable/button_rounded"
+            android:textColor="#ffffff" />
     </LinearLayout>
 
 </LinearLayout>
