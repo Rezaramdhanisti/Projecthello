@@ -127,7 +127,7 @@ public class FragmentRegister extends Fragment {
             focusView.requestFocus();
         } else {
 
-            Intent goingBack = new Intent();
+            final Intent goingBack = new Intent(getContext(),LoginActivity.class);
 //            for(EditText item : etarry) {
 //                goingBack.putExtra(String.valueOf(item.getId()),item.getText().toString());
 //            }
@@ -145,6 +145,10 @@ public class FragmentRegister extends Fragment {
                         String code = user.getCode();
                         String message = user.getMessage();
                         Log.d("MOKES", "Registrasi berhasil, Code: " + code + " Message: " + message);
+                        if(code.equals("200")) {
+                            Toast.makeText(getContext(), "Pendaftaran Berhasil, Anda dapat login sekarang.", Toast.LENGTH_SHORT).show();
+                            startActivity(goingBack);
+                        }
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
@@ -152,6 +156,7 @@ public class FragmentRegister extends Fragment {
 
                 @Override
                 public void failure(RetrofitError error) {
+                    Toast.makeText(getContext(), "Pendaftaran gagal. Silakan ulangi kembali.", Toast.LENGTH_SHORT).show();
                     Log.d("MOKES", "Please check your network connection");
                 }
             });

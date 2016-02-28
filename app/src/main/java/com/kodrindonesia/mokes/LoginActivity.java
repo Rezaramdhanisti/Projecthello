@@ -8,6 +8,7 @@ import android.os.Build;
 import android.os.Build.VERSION;
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.util.Log;
@@ -252,6 +253,7 @@ public class LoginActivity extends AppCompatActivity implements UserLoginTask.IU
                     try {
                         String token = user.getToken();
                         Log.d("MOKES","Registrasi berhasil, TOKEN: " + token);
+                        goToHome(user.getEmail(),user.getName());
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
@@ -329,6 +331,10 @@ public class LoginActivity extends AppCompatActivity implements UserLoginTask.IU
         this.startActivity(loggedIn);
 
         Toast.makeText(this.getApplicationContext(), "Selamat Datang, " + name, Toast.LENGTH_SHORT).show();
+//        Snackbar snackbar = Snackbar
+//                .make(coordinatorLayout, "Welcome to AndroidHive", Snackbar.LENGTH_LONG);LENGTH_LONG
+
+//        snackbar.show();
         showProgress(false);
     }
 

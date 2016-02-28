@@ -6,7 +6,7 @@
 
     <string name="action_settings">Pengaturan</string>
 
-    <string name="prompt_email">nama pengguna</string>
+    <string name="prompt_email">alamat email</string>
     <string name="prompt_password">kata sandi</string>
     <string name="action_sign_in">Masuk</string>
     <string name="action_sign_in_short">Login</string>
@@ -31,9 +31,9 @@
 
     <string name="form_reg_btn_register">Daftar</string>
     <string name="form_reg_title">Daftar Baru</string>
-    <string name="form_reg_full_name">Nama Lengkap</string>
-    <string name="form_reg_user_name">Nama Pengguna</string>
-    <string name="form_reg_phone_number">Nomor Telepon</string>
+    <string name="form_reg_full_name">nama lengkap</string>
+    <string name="form_reg_user_name">nama pengguna</string>
+    <string name="form_reg_phone_number">nomor telepon</string>
 
 
     <string name="paymnt_msg">Top up balance?</string>
