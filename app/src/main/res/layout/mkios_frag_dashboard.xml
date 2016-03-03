@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,6 +21,8 @@
             android:hint="@string/mkios_dsb_topup_credit"
             android:maxLines="1"
             android:singleLine="true"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
             android:textAlignment="center"
             android:clickable="true"
             android:focusable="true"
@@ -41,6 +44,8 @@
             android:maxLines="1"
             android:singleLine="true"
             android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
             android:clickable="true"
             android:focusable="true"
             android:paddingTop="10dp"
@@ -59,6 +64,8 @@
             android:hint="@string/mkios_dsb_return_stock"
             android:maxLines="1"
             android:singleLine="true"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
             android:textAlignment="center"
             android:clickable="true"
             android:focusable="true"
@@ -79,6 +86,8 @@
                 android:hint="@string/mkios_dsb_credit_transfer"
                 android:maxLines="1"
                 android:singleLine="true"
+                android:fontFamily="sans-serif"
+                android:textSize="14sp"
                 android:textAlignment="center"
                 android:clickable="true"
                 android:focusable="true"
@@ -98,6 +107,8 @@
                 android:hint="@string/mkios_dsb_data_packet_transfer"
                 android:maxLines="1"
                 android:singleLine="true"
+                android:fontFamily="sans-serif"
+                android:textSize="14sp"
                 android:textAlignment="center"
                 android:clickable="true"
                 android:focusable="true"
@@ -109,6 +120,8 @@
             android:layout_height="2dp"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
+            android:fontFamily="sans-serif"
+            android:textSize="13sp"
             android:background="@color/colorMainRed"/>
 
         <TextView
@@ -117,6 +130,8 @@
             android:text="@string/transfer_asking_add_balance"
             android:id="@+id/tv_asking_add_balance"
             android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
             android:layout_marginTop="30dp"/>
 
         <Button
@@ -128,9 +143,12 @@
             android:layout_marginRight="70dp"
             android:minWidth="@dimen/btn_minwidth_vert"
             android:text="@string/ctr_add_balance"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
             android:id="@+id/mkios_btn_add_balance"
             android:layout_gravity="center_horizontal"
-            android:background="#EF1414" />
+            android:background="@drawable/button_rounded"
+            android:textColor="#ffffff" />
 
 
     </LinearLayout>

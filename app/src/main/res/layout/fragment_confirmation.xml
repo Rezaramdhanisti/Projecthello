@@ -3,7 +3,8 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin">
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@color/mainBackground">
 
     <TextView
         android:layout_width="wrap_content"
@@ -15,6 +16,8 @@
         android:gravity="center"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="@dimen/medium_mrgn"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
         android:layout_marginTop="@dimen/medium_mrgn"
         android:paddingLeft="@dimen/medium_mrgn"
         android:paddingRight="@dimen/medium_mrgn"/>
@@ -29,6 +32,8 @@
         style="@style/Widget.AppCompat.Spinner.Underlined"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
         android:layout_gravity="bottom"
         android:backgroundTint="#EF1414" />
 
@@ -43,6 +48,8 @@
             android:hint="@string/confirm_user_account"
             android:inputType="textPersonName"
             android:layout_marginLeft="30dp"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
             android:layout_marginRight="30dp"
             android:imeOptions="actionNext"
             android:maxLines="1"
@@ -64,6 +71,8 @@
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:imeOptions="actionNext"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
             android:maxLines="1"
             android:singleLine="true"
             android:backgroundTint="#EF1414" />
@@ -79,6 +88,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/confirm_write_msg"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
             android:inputType="text"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
@@ -88,17 +99,19 @@
     </android.support.design.widget.TextInputLayout>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
         android:minWidth="@dimen/btn_minwidth_vert"
         android:layout_marginLeft="70dp"
         android:layout_marginRight="70dp"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
         android:text="@string/confirm_btn_upload"
         android:id="@+id/confirm_btn_upload"
         android:layout_gravity="center_horizontal"
-        android:background="#EF1414"
+        android:background="@drawable/button_rounded"
         android:textColor="#ffffff" />
 
     <TextView
@@ -107,10 +120,12 @@
         android:text="@string/confirm_asking_upload_pic"
         android:id="@+id/tv_asking_upload_pic"
         android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
         android:textAlignment="center"
         android:gravity="center" />
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
@@ -120,7 +135,9 @@
         android:text="@string/confirm_btn_file"
         android:id="@+id/confirm_btn_select_file"
         android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
         android:textColor="#ffffff"
-        android:background="#EF1414" />
+        android:background="@drawable/button_rounded" />
 
 </LinearLayout>

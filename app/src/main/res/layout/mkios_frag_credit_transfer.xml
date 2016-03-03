@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground">
 
     <TextView
         android:layout_width="wrap_content"
@@ -13,6 +14,8 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="@dimen/medium_mrgn"
         android:layout_marginTop="@dimen/medium_mrgn"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
         android:paddingLeft="@dimen/medium_mrgn"
         android:paddingRight="@dimen/medium_mrgn"/>
 
@@ -28,6 +31,8 @@
             android:hint="@string/mkios_credit_transfer_phone_target"
             android:inputType="phone"
             android:layout_marginLeft="30dp"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
             android:layout_marginRight="40dp"
             android:imeOptions="actionNext"
             android:maxLines="1"
@@ -49,6 +54,8 @@
             android:imeOptions="actionNext"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="40dp"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
             android:maxLines="1"
             android:singleLine="true"
             android:backgroundTint="#EF1414" />
@@ -66,7 +73,9 @@
         android:layout_marginLeft="70dp"
         android:layout_marginRight="70dp"
         android:layout_gravity="center_horizontal"
-        android:background="#EF1414"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:background="@drawable/button_rounded"
         android:textColor="#ffffff"
         android:singleLine="false" />
 
@@ -76,19 +85,23 @@
         android:text="@string/mkios_credit_transfer_ask_topup_cr_telkomsel"
         android:id="@+id/tv_mkios_credit_transfer_ask_topup_cr_telkomsel"
         android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
         android:layout_marginTop="10dp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="70dp"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
         android:layout_marginRight="70dp"
         android:layout_marginTop="10dp"
         android:minWidth="@dimen/btn_minwidth_vert"
         android:text="@string/mkios_credit_transfer_btn_topup"
         android:id="@+id/btn_mkios_credit_transfer_btn_topup"
         android:layout_gravity="center_horizontal"
-        android:background="#EF1414"
+        android:background="@drawable/button_rounded"
         android:textColor="#ffffff" />
 
 </LinearLayout>

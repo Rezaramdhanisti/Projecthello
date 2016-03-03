@@ -3,7 +3,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center|center_horizontal">
+    android:gravity="center|center_horizontal"
+    android:background="@color/mainBackground">
 
     <!-- Login progress -->
     <ProgressBar
@@ -39,6 +40,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/mkios_phone_no"
+                    android:fontFamily="sans-serif"
+                    android:textSize="14sp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:inputType="phone"
@@ -63,6 +66,8 @@
                     android:layout_marginRight="30dp"
                     android:inputType="numberPassword"
                     android:maxLines="1"
+                    android:fontFamily="sans-serif"
+                    android:textSize="14sp"
                     android:singleLine="true"
                     android:backgroundTint="#EF1414" />
 
@@ -80,7 +85,9 @@
                 android:text="@string/action_sign_in"
                 android:textStyle="bold"
                 android:minWidth="@dimen/btn_minwidth_vert"
-                android:background="#EF1414"
+                android:fontFamily="sans-serif"
+                android:textSize="13sp"
+                android:background="@drawable/button_rounded"
                 android:textColor="#ffffff" />
 
         </LinearLayout>

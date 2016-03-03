@@ -13,6 +13,7 @@ public class User {
     private String name;
     private String code;
     private String message;
+    private String userId;
 
     public String getToken() {
         return token;

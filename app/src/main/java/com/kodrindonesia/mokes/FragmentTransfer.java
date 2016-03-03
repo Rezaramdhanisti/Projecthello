@@ -45,7 +45,6 @@ public class FragmentTransfer extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_transfer,container,false);
 
-        etEmail = (EditText) view.findViewById(R.id.transfer_email);
         etNominal = (EditText) view.findViewById(R.id.transfer_nominal);
         etMessage = (EditText)view.findViewById(R.id.transfer_write_msg);
 

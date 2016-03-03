@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal">
+    android:gravity="center_horizontal"
+    android:background="@color/mainBackground">
 
 
     <TextView
@@ -13,38 +14,44 @@
         android:id="@+id/tv_payment_msg"
         android:textAlignment="center"
         android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
         android:layout_marginBottom="@dimen/medium_mrgn"
         android:layout_marginTop="@dimen/medium_mrgn"
         android:paddingLeft="@dimen/medium_mrgn"
         android:paddingRight="@dimen/medium_mrgn"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
         android:minWidth="@dimen/btn_minwidth_vert"
         android:layout_marginLeft="70dp"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
         android:layout_marginRight="70dp"
         android:text="@string/paymnt_btn_topup"
         android:id="@+id/paymmnt_btn_topup"
         android:layout_gravity="center_horizontal"
-        android:background="#EF1414"
+        android:background="@drawable/button_rounded"
         android:textColor="#ffffff" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"
         android:layout_marginTop="10dp"
         android:minWidth="@dimen/btn_minwidth_vert"
         android:layout_marginLeft="70dp"
         android:layout_marginRight="70dp"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
         android:text="@string/paymnt_btn_not_now"
         android:id="@+id/paymmnt_btn_not_now"
         android:layout_gravity="center_horizontal"
         android:textColor="#ffffff"
-        android:background="#EF1414" />
+        android:background="@drawable/button_rounded" />
 
 
 </LinearLayout>

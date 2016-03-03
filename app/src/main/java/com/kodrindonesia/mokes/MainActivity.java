@@ -250,7 +250,6 @@ public class MainActivity extends AppCompatActivity
 
     public void cmdTransferCredit(int result, Intent data){
         if (result == RESULT_OK) {
-            String emailTarget = data.getStringExtra(String.valueOf(R.id.transfer_email));
             String nominal = data.getStringExtra(String.valueOf(R.id.transfer_nominal));
             String msg = data.getStringExtra(String.valueOf(R.id.transfer_write_msg));
 
