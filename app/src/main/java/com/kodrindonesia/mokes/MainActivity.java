@@ -13,6 +13,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,6 +28,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,FragmentLogin.IMKiosLogin,UserLoginMKios.IUserLoginMKios {
 
+    Button pindahpopup;
     private Authentication UserBridge;
     private FragmentUser fragmentUser;
     private TextView tvTitleBalance,tvTheBalance;
@@ -35,6 +37,7 @@ public class MainActivity extends AppCompatActivity
     private Fragment Misc;
     private List<String> navHistory;
     private UserLoginMKios MKiosAuth;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +56,16 @@ public class MainActivity extends AppCompatActivity
 //            }
 //        });
 
+
+//        pindahpopup = (Button) findViewById(R.id.buttonclose);
+//        pindahpopup.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent_obj = new Intent(MainActivity.this, Popupactivity.class);
+//                startActivity(intent_obj);
+//
+//            }
+//        });
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -61,6 +74,7 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
 
 
         Intent loggedIn = getIntent();
@@ -78,6 +92,8 @@ public class MainActivity extends AppCompatActivity
         tvTitleBalance = (TextView) navigationView.getHeaderView(0).findViewById(R.id.drawer_header_static_txt_balance);
         tvTheBalance = (TextView) navigationView.getHeaderView(0).findViewById(R.id.drawer_header_user_balance);
     }
+
+
 
     @Override
     public void onBackPressed() {
@@ -206,7 +222,7 @@ public class MainActivity extends AppCompatActivity
     /**
      * User Logout
      **/
-    private void logout() {
+    private void logout()   {
         //Back to login
         Intent loginIntent = new Intent(this, LoginActivity.class);
         startActivity(loginIntent);
@@ -438,4 +454,5 @@ public class MainActivity extends AppCompatActivity
             MKiosAuth = null;
         }
     }
+
 }

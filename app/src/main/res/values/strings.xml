@@ -120,4 +120,7 @@
     <string name="toolbar_title_dashboard">Dashboard</string>
     <string name="dialog_msg_transaction_succuess">Transaksi Sukses !</string>
     <string name="dialog_msg_transaction_fail">Transaksasi Gagal !</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
