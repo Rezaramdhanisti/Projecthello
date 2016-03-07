@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity
 //            }
 //        });
 
-
+//       * POPUP DISINI
 //        pindahpopup = (Button) findViewById(R.id.buttonclose);
 //        pindahpopup.setOnClickListener(new View.OnClickListener() {
 //            @Override
