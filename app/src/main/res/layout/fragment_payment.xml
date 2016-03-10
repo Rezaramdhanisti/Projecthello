@@ -1,57 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:background="@color/mainBackground">
-
-
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/telkomseldua"
+        android:layout_width="324dp"
+        android:layout_marginLeft="30dp"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/paymnt_msg"
-        android:id="@+id/tv_payment_msg"
-        android:textAlignment="center"
-        android:gravity="center"
+        android:hint="@string/pembayaran_Telkomsel_halo"
         android:fontFamily="sans-serif"
         android:textSize="14sp"
-        android:layout_marginBottom="@dimen/medium_mrgn"
-        android:layout_marginTop="@dimen/medium_mrgn"
-        android:paddingLeft="@dimen/medium_mrgn"
-        android:paddingRight="@dimen/medium_mrgn"/>
-
-    <Button
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        android:minWidth="@dimen/btn_minwidth_vert"
-        android:layout_marginLeft="70dp"
+        android:inputType="phone"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:backgroundTint="#EF1414"/>
+    <Spinner
+        android:id="@+id/select_pln"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:entries="@array/peelen"
+        android:layout_marginLeft="30dp"
         android:fontFamily="sans-serif"
         android:textSize="14sp"
-        android:layout_marginRight="70dp"
-        android:text="@string/paymnt_btn_topup"
-        android:id="@+id/paymmnt_btn_topup"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/button_rounded"
-        android:textColor="#ffffff" />
-
-    <Button
-        android:layout_width="300dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:spinnerMode="dialog"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_gravity="bottom"
+        android:backgroundTint="#EF1414" />
+    <EditText
+        android:id="@+id/PDAM"
+        android:layout_width="324dp"
+        android:layout_marginLeft="30dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp"
-        android:layout_marginTop="10dp"
-        android:minWidth="@dimen/btn_minwidth_vert"
-        android:layout_marginLeft="70dp"
-        android:layout_marginRight="70dp"
+        android:hint="@string/pembayaran_pdam"
+        android:layout_marginTop="100dp"
         android:fontFamily="sans-serif"
         android:textSize="14sp"
-        android:text="@string/paymnt_btn_not_now"
-        android:id="@+id/paymmnt_btn_not_now"
-        android:layout_gravity="center_horizontal"
-        android:textColor="#ffffff"
-        android:background="@drawable/button_rounded" />
+        android:inputType="phone"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:backgroundTint="#EF1414"/>
+    <EditText
+        android:id="@+id/Telkom"
+        android:layout_width="324dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:hint="@string/pembayaran_telkom"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:inputType="phone"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:backgroundTint="#EF1414"/>
+    <EditText
+        android:id="@+id/BPJS"
+        android:layout_width="324dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:hint="@string/pembayaran_bpjs"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:inputType="phone"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:backgroundTint="#EF1414"/>
 
-
-</LinearLayout>
+    <Spinner
+        android:id="@+id/multifinance"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:entries="@array/multifinancedua"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="250dp"
+        android:spinnerMode="dialog"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_gravity="bottom"
+        android:backgroundTint="#EF1414" />
+    <Spinner
+        android:id="@+id/purch_cr_select_provider"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:entries="@array/tv_kabeldua"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="300dp"
+        android:spinnerMode="dialog"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_gravity="bottom"
+        android:backgroundTint="#EF1414" />
+    <Spinner
+        android:id="@+id/purch_cr_select_"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:entries="@array/Voucher_game_dua"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="350dp"
+        android:spinnerMode="dialog"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_gravity="bottom"
+        android:backgroundTint="#EF1414" />
+</RelativeLayout>

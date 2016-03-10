@@ -17,7 +17,7 @@
         <TextView
             android:id="@+id/mkios_credit_topup"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="25dp"
             android:hint="@string/mkios_dsb_topup_credit"
             android:maxLines="1"
             android:singleLine="true"
@@ -26,9 +26,7 @@
             android:textAlignment="center"
             android:clickable="true"
             android:focusable="true"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:layout_marginTop="20dp" />
+            android:layout_marginTop="20dp"/>
         <View
             android:layout_width="match_parent"
             android:layout_height="2dp"
@@ -39,7 +37,7 @@
         <TextView
             android:id="@+id/mkios_data_topup"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="25dp"
             android:hint="@string/mkios_dsb_topup_data"
             android:maxLines="1"
             android:singleLine="true"
@@ -48,41 +46,18 @@
             android:textSize="14sp"
             android:clickable="true"
             android:focusable="true"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:layout_marginTop="20dp" />
+            android:layout_marginTop="10dp"/>
         <View
             android:layout_width="match_parent"
             android:layout_height="2dp"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:background="@color/colorMainRed"/>
-        <TextView
-            android:id="@+id/mkios_return_stock"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/mkios_dsb_return_stock"
-            android:maxLines="1"
-            android:singleLine="true"
-            android:fontFamily="sans-serif"
-            android:textSize="14sp"
-            android:textAlignment="center"
-            android:clickable="true"
-            android:focusable="true"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:layout_marginTop="20dp" />
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:background="@color/colorMainRed"/>
-            <TextView
+        <TextView
                 android:id="@+id/mkios_credit_tranfer"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="25dp"
                 android:hint="@string/mkios_dsb_credit_transfer"
                 android:maxLines="1"
                 android:singleLine="true"
@@ -91,9 +66,7 @@
                 android:textAlignment="center"
                 android:clickable="true"
                 android:focusable="true"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:layout_marginTop="20dp" />
+                android:layout_marginTop="10dp"/>
         <View
             android:layout_width="match_parent"
             android:layout_height="2dp"
@@ -103,7 +76,7 @@
             <TextView
                 android:id="@+id/mkios_data_packet_transfer"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="25dp"
                 android:hint="@string/mkios_dsb_data_packet_transfer"
                 android:maxLines="1"
                 android:singleLine="true"
@@ -112,9 +85,7 @@
                 android:textAlignment="center"
                 android:clickable="true"
                 android:focusable="true"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:layout_marginTop="20dp" />
+                android:layout_marginTop="10dp"/>
         <View
             android:layout_width="match_parent"
             android:layout_height="2dp"
@@ -126,19 +97,117 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="25dp"
             android:text="@string/transfer_asking_add_balance"
             android:id="@+id/tv_asking_add_balance"
             android:layout_gravity="center_horizontal"
             android:fontFamily="sans-serif"
             android:textSize="14sp"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="sans-serif"
+            android:textSize="13sp"
+            android:background="@color/colorMainRed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/mkios_dsb_refresh_kartu"
+            android:id="@+id/mkios_refresh_kartu"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="sans-serif"
+            android:textSize="13sp"
+            android:background="@color/colorMainRed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/mkios_dsb_cek_status"
+            android:id="@+id/mkios_cek_status"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="sans-serif"
+            android:textSize="13sp"
+            android:background="@color/colorMainRed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/mkios_dsb_cek_stock"
+            android:id="@+id/mkios_cek_stock"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="sans-serif"
+            android:textSize="13sp"
+            android:background="@color/colorMainRed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/mkios_dsb_nsp"
+            android:id="@+id/mkios_nsp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="sans-serif"
+            android:textSize="13sp"
+            android:background="@color/colorMainRed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/mkios_dsb_layanan_tdc"
+            android:id="@+id/layanan_tdc"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="sans-serif"
+            android:textSize="13sp"
+            android:background="@color/colorMainRed"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginLeft="70dp"
             android:layout_marginRight="70dp"
             android:minWidth="@dimen/btn_minwidth_vert"

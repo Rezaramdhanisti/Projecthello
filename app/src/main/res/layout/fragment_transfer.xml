@@ -28,8 +28,24 @@
         android:layout_height="wrap_content">
 
     </android.support.design.widget.TextInputLayout>
+    <EditText
+        android:id="@+id/transfer_masukan_nama_pengguna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/transfer_nama_pengguna"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:inputType="numberDecimal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:backgroundTint="#EF1414" />
 
-    <android.support.design.widget.TextInputLayout
+
+
+<android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 

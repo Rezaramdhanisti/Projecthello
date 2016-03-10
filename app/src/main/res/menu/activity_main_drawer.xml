@@ -20,11 +20,15 @@
             <!--android:title="Tools" />-->
     <!--</group>-->
 
-    <item android:title="@string/drawer_menu_main_title">
+    <item android:title="@string/drawer_menu_main_title"
+        android:icon="@drawable/ic_action_name2">
         <menu>
             <item
                 android:id="@+id/nav_main_home"
                 android:title="@string/drawer_menu_main_home" />
+            <Item
+                android:id="@+id/nav_main_beli_pulsa"
+                android:title="@string/drawer_menu_beli_pulsa" />
             <item
                 android:id="@+id/nav_main_add_balance"
                 android:title="@string/drawer_menu_main_add_balance" />
@@ -55,6 +59,9 @@
             <item
                 android:id="@+id/nav_account_merchants"
                 android:title="@string/drawer_menu_account_merchants" />
+            <item
+                android:id="@+id/nav_account_mdc"
+                android:title="@string/drawer_menu_accout_mdc" />
             <item
                 android:id="@+id/nav_account_mkios"
                 android:title="@string/drawer_menu_account_mkios" />
