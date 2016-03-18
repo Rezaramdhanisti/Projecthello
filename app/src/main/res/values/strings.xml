@@ -73,12 +73,6 @@
     <string name="pembayaran_gemscoll">Gemscoll</string>
 
 
-
-
-
-
-
-
     <string name="purch_cr_phone">Masukan No Handphone</string>
     <string name="purch_cr_select_provider">Pilih Provider</string>
     <string name="purch_cr_select_credit">Pilih Nominal Pulsa</string>
@@ -121,7 +115,6 @@
     <string name="mkios_top_up_duapuluhlima">Telkomsel 25.000</string>
     <string name="mkios_top_up_limapuluh">Telkomsel 50.000</string>
     <string name="mkios_top_up_seratus">Telkomsel 100.000</string>
-
 
 
     <string name="mkios_credit_tranfer_msg">Anda Dapat Mentransfer Dana Kepada Sesama Pengguna M-Cash</string>

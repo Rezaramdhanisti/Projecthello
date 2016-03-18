@@ -28,7 +28,7 @@
                 android:title="@string/drawer_menu_main_home" />
             <Item
                 android:id="@+id/nav_main_beli_pulsa"
-                android:title="@string/drawer_menu_beli_pulsa" />
+                android:title="@string/drawer_menu_main_beli_pulsa" />
             <item
                 android:id="@+id/nav_main_add_balance"
                 android:title="@string/drawer_menu_main_add_balance" />
@@ -67,6 +67,9 @@
                 android:title="@string/drawer_menu_account_mkios" />
         </menu>
     </item>
+    <item
+        android:id="@+id/nav_agent"
+        android:title="Agent" />
     <item
         android:id="@+id/nav_user_logout"
         android:title="Logout" />

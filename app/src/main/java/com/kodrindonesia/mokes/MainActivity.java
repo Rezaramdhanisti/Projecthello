@@ -356,6 +356,7 @@ public class MainActivity extends AppCompatActivity
                 .commit();
     }
 
+
     public void SetupFragmentUserValue(){
         if(fragmentUser != null && UserBridge!= null) {
             fragmentUser.SetUserName(UserBridge.get_username());

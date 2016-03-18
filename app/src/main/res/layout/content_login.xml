@@ -55,7 +55,8 @@
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:backgroundTint="#EF1414">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -124,7 +125,8 @@
                     android:backgroundTint="@color/colorPrimary"
                     android:focusableInTouchMode="true"
                     android:fontFamily="sans-serif"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:clickable="false" />
 
                     <ImageView
                         android:layout_width="wrap_content"
