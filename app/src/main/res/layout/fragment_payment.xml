@@ -116,4 +116,24 @@
         style="@style/Widget.AppCompat.Spinner.Underlined"
         android:layout_gravity="bottom"
         android:backgroundTint="#EF1414" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/paymmnt_btn_not_now"
+        android:layout_below="@+id/purch_cr_select_"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/paymmnt_btn_topup"
+        android:layout_below="@+id/purch_cr_select_"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button" />
+
+
 </RelativeLayout>
