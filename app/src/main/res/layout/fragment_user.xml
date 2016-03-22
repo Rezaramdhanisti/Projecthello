@@ -70,11 +70,11 @@
         android:layout_height="1dp"
         android:background="@android:color/darker_gray"/>
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="440dp"
-        android:layout_gravity="center_horizontal"
-        android:background="@color/mainBackground"></LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="440dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:background="@color/mainBackground"></LinearLayout>-->
 
 </LinearLayout>
