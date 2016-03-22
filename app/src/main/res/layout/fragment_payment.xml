@@ -3,7 +3,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
-    android:background="@color/mainBackground">
+    android:background="#ffffff">
     <EditText
         android:id="@+id/telkomseldua"
         android:layout_width="324dp"
@@ -131,9 +131,7 @@
         android:layout_height="wrap_content"
         android:text="New Button"
         android:id="@+id/paymmnt_btn_topup"
-        android:layout_below="@+id/purch_cr_select_"
-        android:layout_toRightOf="@+id/button"
-        android:layout_toEndOf="@+id/button" />
+        android:layout_below="@+id/purch_cr_select_" />
 
 
 </RelativeLayout>

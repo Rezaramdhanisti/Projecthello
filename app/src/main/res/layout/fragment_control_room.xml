@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:gravity="center"
     android:weightSum="1"
-    android:background="@color/mainBackground">
+    android:background="#ffffffff">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -125,5 +125,5 @@
         android:layout_width="match_parent"
         android:layout_height="205dp"
         android:layout_gravity="center_horizontal"
-        android:background="@color/mainBackground"></LinearLayout>
+        android:baselineAligned="false"></LinearLayout>
 </LinearLayout>

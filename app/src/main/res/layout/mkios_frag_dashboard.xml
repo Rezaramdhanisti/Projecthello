@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mainBackground">
+    android:background="#ffffffff">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,27 +26,7 @@
             android:textAlignment="center"
             android:clickable="true"
             android:focusable="true"
-            android:layout_marginTop="20dp"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:background="@color/colorMainRed"/>
-
-        <TextView
-            android:id="@+id/mkios_data_topup"
-            android:layout_width="match_parent"
-            android:layout_height="25dp"
-            android:hint="@string/mkios_dsb_topup_data"
-            android:maxLines="1"
-            android:singleLine="true"
-            android:textAlignment="center"
-            android:fontFamily="sans-serif"
-            android:textSize="14sp"
-            android:clickable="true"
-            android:focusable="true"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="40dp"/>
         <View
             android:layout_width="match_parent"
             android:layout_height="2dp"
@@ -205,7 +185,7 @@
 
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="38dp"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="70dp"

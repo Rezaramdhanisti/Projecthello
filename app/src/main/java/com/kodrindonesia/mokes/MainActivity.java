@@ -21,6 +21,7 @@ import com.kodrindonesia.mokes.Domain.Authentication;
 import com.kodrindonesia.mokes.MKIOS.FragmentLogin;
 import com.kodrindonesia.mokes.MKIOS.FragmentMKiosDashBoard;
 import com.kodrindonesia.mokes.MKIOS.UserLoginMKios;
+import com.kodrindonesia.mokes.models.FragmentAgent;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -210,6 +211,10 @@ public class MainActivity extends AppCompatActivity
         else if (id == R.id.nav_account_mkios) {
             goMKios();
         }
+        else if(id == R.id.nav_agent) {
+            setupFragmentUser();
+            setupFragmentAgent();
+        }
         else if(id == R.id.nav_user_logout) {
             logout();
         }
@@ -306,6 +311,12 @@ public class MainActivity extends AppCompatActivity
     public void setupFragmentConfirmation() {
         if (Misc == null || !(Misc instanceof FragmentConfirmation)) {
             Misc = FragmentConfirmation.newInstance(getString(R.string.toolbar_title_confirmation));
+        }
+        setupFragMainAfterFiltering(Misc);
+    }
+    public void setupFragmentAgent() {
+        if (Misc == null || !(Misc instanceof FragmentAgent)) {
+            Misc = fragmentUser.newInstance();
         }
         setupFragMainAfterFiltering(Misc);
     }
