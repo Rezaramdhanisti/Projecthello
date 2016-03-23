@@ -22,7 +22,7 @@
     <string name="str_your_saldo">Saldo Anda</string>
     <string name="str_your_mkios_saldo">Saldo M-Kios Anda</string>
     <string name="ctr_add_balance">Tambah Saldo</string>
-    <string name="ctr_purchase_credit">Beli Pulsa</string>
+    <string name="ctr_purchase_credit">Pulsa</string>
     <string name="ctr_transfer" translatable="false">Transfer</string>
     <string name="ctr_payment">Pembayaran</string>
     <string name="enter_email_address">Masukan alamat email</string>
@@ -94,8 +94,8 @@
     <string name="confirm_btn_file">Pilih File</string>
 
     <string name="mkios_msg">Masukan ID M-Kios Anda</string>
-    <string name="mkios_phone_no">Pin</string>
-    <string name="mkios_pin" translatable="false">Nomor Handphone</string>
+    <string name="mkios_phone_no">Nomor Handphone</string>
+    <string name="mkios_pin" translatable="false">Pin</string>
 
     <string name="mkios_dsb_topup_credit">Top Up Stock MKios</string>
     <string name="mkios_dsb_topup_data">Top Up Data Telkomsel</string>
@@ -155,11 +155,11 @@
     <string name="toolbar_title_home" translatable="false">Beranda</string>
     <string name="toolbar_title_payment">Pembayaran</string>
     <string name="toolbar_title_information">Informasi</string>
-    <string name="toolbar_title_purch_credit">Beli Pulsa</string>
-    <string name="toolbar_title_transfer">Transfer Pulsa</string>
+    <string name="toolbar_title_purch_credit">Pulsa</string>
+    <string name="toolbar_title_transfer">Transfer Saldo</string>
     <string name="toolbar_title_confirmation">Konfirmasi</string>
     <string name="toolbar_title_mkios" translatable="false">M-Kios</string>
-    <string name="toolbar_title_dashboard">Dashboard</string>
+    <string name="toolbar_title_dashboard">Beranda</string>
     <string name="toolbar_title_agent">Agent</string>
     <string name="dialog_msg_transaction_succuess">Transaksi Sukses !</string>
     <string name="dialog_msg_transaction_fail">Transaksasi Gagal !</string>

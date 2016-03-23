@@ -26,7 +26,7 @@
             <item
                 android:id="@+id/nav_main_home"
                 android:title="@string/drawer_menu_main_home" />
-            <Item
+            <item
                 android:id="@+id/nav_main_beli_pulsa"
                 android:title="@string/drawer_menu_main_beli_pulsa" />
             <item
@@ -69,7 +69,7 @@
     </item>
     <item
         android:id="@+id/nav_agent"
-        android:title="Agent" />
+        android:title="Agent Pulsa" />
     <item
         android:id="@+id/nav_user_logout"
         android:title="Logout" />

@@ -38,8 +38,7 @@
             android:singleLine="true"
             android:backgroundTint="#EF1414"
             android:fontFamily="sans-serif"
-            android:textSize="14sp"
-            android:textAlignment="center" />
+            android:textSize="14sp" />
 
     </android.support.design.widget.TextInputLayout>
 

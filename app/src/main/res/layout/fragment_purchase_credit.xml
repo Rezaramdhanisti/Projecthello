@@ -72,21 +72,20 @@
         style="@style/Widget.AppCompat.Spinner.Underlined"
         android:layout_gravity="bottom"
         android:backgroundTint="#EF1414" />
-    <Spinner
-        android:id="@+id/purch_cr_select_sms"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="2dp"
-        android:entries="@array/sms_center"
+    <EditText
+        android:id="@+id/purch_cr_pin_mokes"
+        android:layout_width="290dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Pin MOKES"
         android:fontFamily="sans-serif"
         android:textSize="14sp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:spinnerMode="dialog"
-        style="@style/Widget.AppCompat.Spinner.Underlined"
-        android:layout_gravity="bottom"
-        android:backgroundTint="#EF1414" />
+        android:inputType="phone"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:backgroundTint="#EF1414"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="38dp"
