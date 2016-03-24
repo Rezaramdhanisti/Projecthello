@@ -175,6 +175,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
+
         int id = item.getItemId();
 
         if (id == R.id.nav_main_home) {
@@ -316,7 +317,7 @@ public class MainActivity extends AppCompatActivity
     }
     public void setupFragmentAgent() {
         if (Misc == null || !(Misc instanceof FragmentAgent)) {
-            Misc = fragmentUser.newInstance();
+            Misc = FragmentAgent.newInstance(getString(R.string.toolbar_title_agent));
         }
         setupFragMainAfterFiltering(Misc);
     }

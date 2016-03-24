@@ -21,12 +21,14 @@
         android:layout_height="match_parent"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
-        android:gravity="center">
+        android:gravity="center"
+        android:background="#ffffff">
 
         <RelativeLayout
             android:id="@+id/email_login_form"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
             android:orientation="vertical"
             android:gravity="center"
             android:paddingBottom="12dp">
@@ -34,13 +36,13 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/mkios_pin"
+                android:layout_below="@+id/mkios_phone_no"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:id="@+id/view">
 
                 <EditText
-                    android:id="@+id/mkios_phone_no"
+                    android:id="@+id/mkios_pin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Pin"
@@ -64,7 +66,7 @@
             </android.support.design.widget.TextInputLayout>
 
             <EditText
-                android:id="@+id/mkios_pin"
+                android:id="@+id/mkios_phone_no"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Nomor Handphone"
@@ -105,12 +107,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="35dp"
-            android:layout_marginBottom="80dp"
+            android:layout_marginTop="0dp"
             android:text="Masukan ID M-Kios Anda"
             android:fontFamily="sans-serif"
             android:textSize="13sp"
             android:id="@+id/textView6"
-            android:layout_above="@+id/email_login_form"
             android:layout_centerHorizontal="true" />
 
         <Button
