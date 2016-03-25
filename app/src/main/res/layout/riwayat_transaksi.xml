@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/tumpukan_satu"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/purch_cr_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/purch_cr_phone"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:inputType="phone"
+            android:layout_marginLeft="30dp"
+            android:imeOptions="actionDone"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:backgroundTint="#EF1414"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:text="Beli Pulsa Rp. 50.000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21 November 2016"
+            android:id="@+id/textView8"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/purch_cr_phone"
+            android:layout_alignStart="@+id/purch_cr_phone" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tumpukan_satu">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+    </RelativeLayout>
+
+</RelativeLayout>

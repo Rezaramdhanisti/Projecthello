@@ -162,6 +162,9 @@
     <string name="toolbar_title_dashboard">Beranda</string>
     <string name="toolbar_title_agent">Agent</string>
     <string name="toolbar_title_pengaturan">Pengaturan</string>
+    <string name="toolbar_title_hadiah">Hadiah Tunai</string>
+    <string name="toolbar_title_promo">Promo</string>
+    <string name="toolbar_title_riwayat">Riwayat Transaksi</string>
     <string name="dialog_msg_transaction_succuess">Transaksi Sukses !</string>
     <string name="dialog_msg_transaction_fail">Transaksasi Gagal !</string>
 

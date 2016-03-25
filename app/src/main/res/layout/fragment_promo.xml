@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/frag_promo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:inputType="phone"
+        android:layout_marginLeft="50dp"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:backgroundTint="#EF1414"
+        android:text="Promo"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:text="Beli Pulsa dapat Mobil Periode 1 Mei - 31 Desember 2016."
+        android:id="@+id/frag_promo_dua"
+        android:layout_below="@+id/frag_promo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="150dp"
+        android:background="@android:color/darker_gray"/>
+
+</RelativeLayout>
