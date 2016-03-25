@@ -22,6 +22,7 @@ import com.kodrindonesia.mokes.MKIOS.FragmentLogin;
 import com.kodrindonesia.mokes.MKIOS.FragmentMKiosDashBoard;
 import com.kodrindonesia.mokes.MKIOS.UserLoginMKios;
 import com.kodrindonesia.mokes.models.FragmentAgent;
+import com.kodrindonesia.mokes.models.FragmentPengaturan;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -165,11 +166,18 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            setupFragmentUser();
+            setupFragmentPengaturan();
+        }
+        return true;
+    }
+        public void setupFragmentPengaturan() {
+            if (Misc == null || !(Misc instanceof FragmentPengaturan)) {
+                Misc = FragmentPengaturan.newInstance(getString(R.string.toolbar_title_pengaturan));
+            }
+            setupFragMainAfterFiltering(Misc);
         }
 
-        return super.onOptionsItemSelected(item);
-    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override

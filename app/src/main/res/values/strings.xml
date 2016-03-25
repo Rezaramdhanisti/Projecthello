@@ -161,6 +161,7 @@
     <string name="toolbar_title_mkios" translatable="false">M-Kios</string>
     <string name="toolbar_title_dashboard">Beranda</string>
     <string name="toolbar_title_agent">Agent</string>
+    <string name="toolbar_title_pengaturan">Pengaturan</string>
     <string name="dialog_msg_transaction_succuess">Transaksi Sukses !</string>
     <string name="dialog_msg_transaction_fail">Transaksasi Gagal !</string>
 
