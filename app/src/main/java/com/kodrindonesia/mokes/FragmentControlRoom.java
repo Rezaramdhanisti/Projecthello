@@ -9,7 +9,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
 /**
  * Created by royyan on 2/6/2016.
@@ -66,22 +65,18 @@ public class FragmentControlRoom extends Fragment {
         int id = item.getId();
 
         if (id == R.id.btn_payment) {
-            Toast.makeText(getContext(),"payment clicked", Toast.LENGTH_SHORT).show();
             mainActivity.setupFragmentUser();
             mainActivity.setupFragmentPayment();
         }
         else if (id == R.id.btn_transfer) {
-            Toast.makeText(getContext(),"tranfer clicked", Toast.LENGTH_SHORT).show();
             mainActivity.setupFragmentUser();
             mainActivity.setupFragmentTransfer();
         }
         else if (id == R.id.btn_purchase_credit) {
-            Toast.makeText(getContext(),"purchase clicked", Toast.LENGTH_SHORT).show();
             mainActivity.setupFragmentUser();
             mainActivity.setupFragmentPurchaseCredit();
         }
         else if (id == R.id.btn_add_balance) {
-            Toast.makeText(getContext(),"add balance clicked", Toast.LENGTH_SHORT).show();
             mainActivity.setupFragmentUser();
             mainActivity.setupFragmentTopUp();
         }

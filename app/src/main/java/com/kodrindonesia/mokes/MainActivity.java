@@ -20,9 +20,12 @@ import android.widget.Toast;
 import com.kodrindonesia.mokes.Domain.Authentication;
 import com.kodrindonesia.mokes.MKIOS.FragmentLogin;
 import com.kodrindonesia.mokes.MKIOS.FragmentMKiosDashBoard;
+import com.kodrindonesia.mokes.MKIOS.FragmentRiwayat;
 import com.kodrindonesia.mokes.MKIOS.UserLoginMKios;
 import com.kodrindonesia.mokes.models.FragmentAgent;
+import com.kodrindonesia.mokes.models.FragmentHadiah;
 import com.kodrindonesia.mokes.models.FragmentPengaturan;
+import com.kodrindonesia.mokes.models.FragmentPromo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -206,13 +209,16 @@ public class MainActivity extends AppCompatActivity
             Toast.makeText(this, getString(R.string.drawer_menu_account_edit),Toast.LENGTH_SHORT).show();
         }
         else if (id == R.id.nav_account_transaction_history) {
-            Toast.makeText(this, getString(R.string.drawer_menu_account_transaction_history),Toast.LENGTH_SHORT).show();
+            setupFragmentUser();
+            setupFragmentRiwayat();
         }
         else if (id == R.id.nav_account_cash_reward) {
-            Toast.makeText(this, getString(R.string.drawer_menu_account_cash_reward),Toast.LENGTH_SHORT).show();
+            setupFragmentUser();
+            setupFragmentHadiah();
         }
         else if (id == R.id.nav_account_promo) {
-            Toast.makeText(this, getString(R.string.drawer_menu_account_promo),Toast.LENGTH_SHORT).show();
+            setupFragmentUser();
+            setupFragmentPromo();
         }
         else if (id == R.id.nav_account_merchants) {
             Toast.makeText(this, getString(R.string.drawer_menu_account_merchants),Toast.LENGTH_SHORT).show();
@@ -329,6 +335,18 @@ public class MainActivity extends AppCompatActivity
         }
         setupFragMainAfterFiltering(Misc);
     }
+    public void setupFragmentRiwayat() {
+        if (Misc == null || !(Misc instanceof FragmentRiwayat)) {
+            Misc = FragmentRiwayat.newInstance(getString(R.string.toolbar_title_riwayat));
+        }
+        setupFragMainAfterFiltering(Misc);
+    }
+    public void setupFragmentPromo() {
+        if (Misc == null || !(Misc instanceof FragmentPromo)) {
+            Misc = FragmentPromo.newInstance(getString(R.string.toolbar_title_promo));
+        }
+        setupFragMainAfterFiltering(Misc);
+    }
     public void setupFragmentPayment() {
         if (Misc == null || !(Misc instanceof FragmentPayment)) {
             Misc = FragmentPayment.newInstance(getString(R.string.toolbar_title_payment));
@@ -339,6 +357,12 @@ public class MainActivity extends AppCompatActivity
     public void setupFragmentPurchaseCredit() {
         if (Misc == null || !(Misc instanceof FragmentPurchaseCredit)) {
             Misc = FragmentPurchaseCredit.newInstance(getString(R.string.toolbar_title_purch_credit));
+        }
+        setupFragMainAfterFiltering(Misc);
+    }
+    public void setupFragmentHadiah() {
+        if (Misc == null || !(Misc instanceof FragmentHadiah)) {
+            Misc = FragmentHadiah.newInstance(getString(R.string.toolbar_title_hadiah));
         }
         setupFragMainAfterFiltering(Misc);
     }
