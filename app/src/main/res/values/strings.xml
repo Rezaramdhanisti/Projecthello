@@ -6,7 +6,7 @@
 
     <string name="action_settings">Pengaturan</string>
 
-    <string name="prompt_email">Alamat Email</string>
+    <string name="prompt_email">Email</string>
     <string name="prompt_password">Kata Sandi</string>
     <string name="action_sign_in">Masuk</string>
     <string name="action_sign_in_short">Login</string>
@@ -26,12 +26,12 @@
     <string name="ctr_transfer" translatable="false">Transfer</string>
     <string name="ctr_payment">Pembayaran</string>
     <string name="enter_email_address">Masukan alamat email</string>
-    <string name="back_to_login">Kembali ke login</string>
+    <string name="back_to_login">kembali ke login</string>
     <string name="lbl_btn_send">Kirim</string>
     <string name="lbl_btn_proses">Proses</string>
 
     <string name="form_reg_btn_register">Daftar</string>
-    <string name="form_reg_title">Daftar Baru</string>
+    <string name="form_reg_title">Daftar baru</string>
     <string name="form_reg_full_name">Nama Lengkap</string>
     <string name="form_reg_user_name">Nama Pengguna</string>
     <string name="form_reg_phone_number">Nomor Telepon</string>
