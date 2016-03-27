@@ -2,6 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
     android:background="#ffffff">
 
     <android.support.design.widget.TextInputLayout
@@ -71,9 +73,6 @@
         style="@style/Widget.AppCompat.Spinner.Underlined"
         android:layout_gravity="bottom"
         android:backgroundTint="#EF1414" />
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
     <EditText
         android:id="@+id/purch_cr_pin_mokes"
         android:layout_width="match_parent"
@@ -89,8 +88,6 @@
         android:maxLines="1"
         android:singleLine="true"
         android:backgroundTint="#EF1414"/>
-
-    </android.support.design.widget.TextInputLayout>
 
     <Button
         android:layout_width="wrap_content"

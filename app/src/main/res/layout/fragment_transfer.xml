@@ -2,6 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
     android:background="#ffffff">
 
     <TextView
@@ -113,6 +115,7 @@
         android:layout_height="38dp"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
+        android:minWidth="@dimen/btn_minwidth_vert"
         android:text="@string/ctr_add_balance"
         android:id="@+id/transfer_btn_add_balance"
         android:layout_gravity="center_horizontal"
@@ -120,8 +123,8 @@
         android:layout_marginRight="70dp"
         android:fontFamily="sans-serif"
         android:textSize="14sp"
+        android:maxLength="100"
         android:background="@drawable/button_rounded"
-        android:textColor="#fefcfc" />
-
+        android:textColor="#ffffff" />
 
 </LinearLayout>

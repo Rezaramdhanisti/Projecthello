@@ -69,7 +69,7 @@
     </item>
     <item
         android:id="@+id/nav_agent"
-        android:title="Agen Pulsa" />
+        android:title="Agent Pulsa" />
     <item
         android:id="@+id/nav_user_logout"
         android:title="Logout" />

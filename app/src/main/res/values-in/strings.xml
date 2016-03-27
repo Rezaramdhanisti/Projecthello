@@ -16,7 +16,7 @@
     <string name="action_sign_in" translatable="false">Masuk</string>
     <string name="action_sign_in_short">Masuk</string>
     <string name="prompt_password">Kata Sandi</string>
-    <string name="back_to_login">Kembali ke login</string>
+    <string name="back_to_login">kembali ke login</string>
     <string name="form_reg_btn_register">daftar</string>
     <string name="form_reg_full_name">Nama Lengkap</string>
     <string name="form_reg_phone_number">Nomor Telepon</string>
