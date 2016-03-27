@@ -54,21 +54,21 @@
 
 
     <string name="pembayaran_Telkomsel_halo">Telkomsel Halo</string>
-    <string name="pembayaran_pln">PLN</string>
+    <string name="pembayaran_pln">--PLN--</string>
     <string name="pembayaran_pdam">PDAM</string>
     <string name="pembayaran_telkom">Telkom</string>
     <string name="pembayaran_bpjs">BPJS</string>
-    <string name="pembayaran_multifinance">Multifinance</string>
+    <string name="pembayaran_multifinance">--Multifinance--</string>
     <string name="pembayaran_pln_pra_bayar">PLN Pra Bayar</string>
     <string name="pembayaran_pln_pasca_bayar">PLN Pasca Bayar</string>
     <string name="pembayaran_wom_multifinance">WOM Multifinance</string>
     <string name="pembayaran_bussan_auto_finance">BUSSAN Auto Finance</string>
     <string name="pembayaran_adira_multifinance">Adira Multifinance</string>
     <string name="pembayaran_mega_auto">Mega Auto Finance</string>
-    <string name="pembayaran_tv_kabel">Tv Kabel</string>
+    <string name="pembayaran_tv_kabel">--Tv Kabel--</string>
     <string name="pembayaran_indovision">Indovision</string>
     <string name="pembayaran_telkom_vision">Telkomvision</string>
-    <string name="pembayaran_voucher_game">Voucher Game</string>
+    <string name="pembayaran_voucher_game">--Voucher Game--</string>
     <string name="pembayaran_steam">Steam</string>
     <string name="pembayaran_gemscoll">Gemscoll</string>
 
@@ -147,11 +147,11 @@
     <string name="drawer_menu_accout_mdc">MDC</string>
     <string name="drawer_menu_account_mkios" translatable="false">M-Kios</string>
     <string name="error_invalid_input">Kesalahan Input</string>
-    <string name="spinner_select_bank">Pilih Bank</string>
-    <string name="spinner_select_provider">Pilih Provider</string>
-    <string name="spinner_selet_pulsa">Pilih Pembelian Pulsa</string>
-    <string name="spinner_select_nominal">Pilih Nominal</string>
-    <string name="spinner_select_sms">SMS Center</string>
+    <string name="spinner_select_bank">--Pilih Bank--</string>
+    <string name="spinner_select_provider">--Pilih Provider--</string>
+    <string name="spinner_selet_pulsa">--Pilih Pembelian Pulsa--</string>
+    <string name="spinner_select_nominal">--Pilih Nominal--</string>
+    <string name="spinner_select_sms">--SMS Center--</string>
     <string name="toolbar_title_home" translatable="false">Beranda</string>
     <string name="toolbar_title_payment">Pembayaran</string>
     <string name="toolbar_title_information">Informasi</string>
@@ -160,7 +160,7 @@
     <string name="toolbar_title_confirmation">Konfirmasi</string>
     <string name="toolbar_title_mkios" translatable="false">M-Kios</string>
     <string name="toolbar_title_dashboard">Beranda</string>
-    <string name="toolbar_title_agent">Agent</string>
+    <string name="toolbar_title_agent">Agen</string>
     <string name="toolbar_title_pengaturan">Pengaturan</string>
     <string name="toolbar_title_hadiah">Hadiah Tunai</string>
     <string name="toolbar_title_promo">Promo</string>

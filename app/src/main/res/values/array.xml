@@ -62,7 +62,7 @@
 
     </array>
     <array name="select_transaksi">
-        <item>Agent</item>
+        <item>--Agen--</item>
         <item>Top Up Deposit</item>
         <item>Top Up RS</item>
 
