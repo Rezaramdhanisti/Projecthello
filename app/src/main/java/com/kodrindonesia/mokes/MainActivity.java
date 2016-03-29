@@ -160,27 +160,21 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            setupFragmentUser();
-            setupFragmentPengaturan();
-        }
-        return true;
-    }
-        public void setupFragmentPengaturan() {
-            if (Misc == null || !(Misc instanceof FragmentPengaturan)) {
-                Misc = FragmentPengaturan.newInstance(getString(R.string.toolbar_title_pengaturan));
-            }
-            setupFragMainAfterFiltering(Misc);
-        }
-
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        // Handle action bar item clicks here. The action bar will
+//        // automatically handle clicks on the Home/Up button, so long
+//        // as you specify a parent activity in AndroidManifest.xml.
+//        int id = item.getItemId();
+//
+//        //noinspection SimplifiableIfStatement
+//        if (id == R.id.action_settings) {
+//            setupFragmentUser();
+//            setupFragmentPengaturan();
+//        }
+//        return true;
+//    }
+//
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -206,7 +200,8 @@ public class MainActivity extends AppCompatActivity
             setupFragmentPayment();
         }
         else if (id == R.id.nav_account_edit) {
-            Toast.makeText(this, getString(R.string.drawer_menu_account_edit),Toast.LENGTH_SHORT).show();
+            setupFragmentUser();
+            setupFragmentPengaturan();
         }
         else if (id == R.id.nav_account_transaction_history) {
             setupFragmentUser();
@@ -322,6 +317,13 @@ public class MainActivity extends AppCompatActivity
             setupFragMainAfterFiltering(Misc);
         }
     }
+    public void setupFragmentPengaturan() {
+        if (Misc == null || !(Misc instanceof FragmentPengaturan)) {
+            Misc = FragmentPengaturan.newInstance(getString(R.string.toolbar_title_pengaturan));
+        }
+        setupFragMainAfterFiltering(Misc);
+    }
+
 
     public void setupFragmentConfirmation() {
         if (Misc == null || !(Misc instanceof FragmentConfirmation)) {

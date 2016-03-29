@@ -61,7 +61,7 @@
             android:text="Rp 0,-"
             android:id="@+id/tv_saldo_main"
             android:layout_marginRight="20dp"
-            android:textColor="#EF1414"/>
+            android:textColor="#888888"/>
     </LinearLayout>
 
     </LinearLayout>
