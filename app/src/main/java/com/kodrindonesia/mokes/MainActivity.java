@@ -10,7 +10,6 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -20,6 +19,7 @@ import android.widget.Toast;
 import com.kodrindonesia.mokes.Domain.Authentication;
 import com.kodrindonesia.mokes.MKIOS.FragmentLogin;
 import com.kodrindonesia.mokes.MKIOS.FragmentMKiosDashBoard;
+import com.kodrindonesia.mokes.MKIOS.FragmentNext;
 import com.kodrindonesia.mokes.MKIOS.FragmentRiwayat;
 import com.kodrindonesia.mokes.MKIOS.UserLoginMKios;
 import com.kodrindonesia.mokes.models.FragmentAgent;
@@ -154,12 +154,12 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        // Inflate the menu; this adds items to the action bar if it is present.
+//        getMenuInflater().inflate(R.menu.main, menu);
+//        return true;
+//    }
 
 //    @Override
 //    public boolean onOptionsItemSelected(MenuItem item) {
@@ -195,6 +195,10 @@ public class MainActivity extends AppCompatActivity
         else if (id == R.id.nav_main_transfer) {
             setupFragmentUser();
             setupFragmentTransfer();
+        }
+        else if (id == R.id.nav_main_beli_pulsa) {
+            setupFragmentUser();
+            setupFragmentPurchaseCredit();
         }
         else if (id == R.id.nav_main_payment) {
             setupFragmentUser();
@@ -395,6 +399,12 @@ public class MainActivity extends AppCompatActivity
     public void setupFragmentTopUp(){
         if (Misc == null || !(Misc instanceof FragmentTopUp)) {
             Misc = FragmentTopUp.newInstance(getString(R.string.toolbar_title_information));
+        }
+        setupFragMainAfterFiltering(Misc);
+    }
+    public void setupFragmentNext(){
+        if (Misc == null || !(Misc instanceof FragmentNext)) {
+            Misc = FragmentNext.newInstance(getString(R.string.toolbar_title_payment));
         }
         setupFragMainAfterFiltering(Misc);
     }

@@ -4,36 +4,191 @@
     android:layout_height="match_parent"
     android:paddingTop="@dimen/activity_horizontal_margin"
     android:paddingBottom="@dimen/activity_horizontal_margin">
+
+
+
     <TextView
-        android:id="@+id/hadiah_tunai"
+        android:id="@+id/purch_cr_hadiah_hadiah"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="@string/purch_cr_phone"
         android:fontFamily="sans-serif"
         android:textSize="14sp"
         android:inputType="phone"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
         android:imeOptions="actionDone"
         android:maxLines="1"
         android:singleLine="true"
         android:backgroundTint="#EF1414"
-        android:text="Hadiah Tunai"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:text="Selamat Anda Mendapatkan 2 Milyar, " />
+    <TextView
+        android:id="@+id/purch_cr_hadiah_hadiah3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/purch_cr_phone"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:inputType="phone"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:backgroundTint="#EF1414"
+        android:layout_marginTop="35dp"
+        android:text="Silahkan Melakukan Verifikasi" />
+
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_marginLeft="50dp"
         android:layout_height="wrap_content"
-        android:text="Selamat anda mendapatkan 2 Milyar , Silahkan melakukan verifikasi."
-        android:id="@+id/hadiah_tunai_dua"
-        android:layout_below="@+id/hadiah_tunai"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="50dp" />
+        android:text="31 Maret 2016"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/textViewhadiah"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginTop="150dp"
-        android:background="@android:color/darker_gray"/>
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="70dp"/>
+    <TextView
+        android:id="@+id/purch_cr_hadiah_satu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/purch_cr_phone"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:inputType="phone"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:backgroundTint="#EF1414"
+        android:layout_marginTop="90dp"
+        android:text="Selamat Anda Mendapatkan 2 Milyar," />
+    <TextView
+        android:id="@+id/purch_cr_hadiah_hadiah4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/purch_cr_phone"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:inputType="phone"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:backgroundTint="#EF1414"
+        android:layout_marginTop="105dp"
+        android:text="Silahkan Melakukan Verifikasi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="31 Maret 2016"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:id="@+id/textViewhadiah1"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="140dp"/>
+    <TextView
+        android:id="@+id/purch_cr_hadiahtiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/purch_cr_phone"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:inputType="phone"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:backgroundTint="#EF1414"
+        android:layout_marginTop="160dp"
+        android:text="Selamat Anda Mendapatkan 2 Milyar," />
+    <TextView
+        android:id="@+id/purch_cr_hadiah_hadiah5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/purch_cr_phone"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:inputType="phone"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:backgroundTint="#EF1414"
+        android:layout_marginTop="175dp"
+        android:text="Silahkan Melakukan Verifikasi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="31 Maret 2016"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="190dp"
+        android:id="@+id/textViewhadiah2"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="210dp"/>
+    <TextView
+        android:id="@+id/purch_cr_hadiahempat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/purch_cr_phone"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:inputType="phone"
+        android:layout_marginLeft="20dp"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:backgroundTint="#EF1414"
+        android:textStyle="bold"
+        android:layout_marginTop="230dp"
+        android:text="Selamat Anda Mendapatkan 2 Milyar," />
+    <TextView
+        android:id="@+id/purch_cr_hadiah_hadiah6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/purch_cr_phone"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:inputType="phone"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:backgroundTint="#EF1414"
+        android:layout_marginTop="245dp"
+        android:text="Silahkan Melakukan Verifikasi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="31 Maret 2016"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
+        android:id="@+id/textViewhadiah4"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="280dp"/>
+
+
 
 </RelativeLayout>

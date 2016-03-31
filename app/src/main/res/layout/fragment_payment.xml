@@ -146,6 +146,19 @@
         style="@style/Widget.AppCompat.Spinner.Underlined"
         android:layout_gravity="bottom"
         android:backgroundTint="#EF1414" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:minWidth="@dimen/btn_minwidth_vert"
+        android:text="Next"
+        android:id="@+id/purch_cr_btn_next"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_rounded"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/purch_cr_select_"
+        android:layout_centerHorizontal="true" />
 
     <!--<Button-->
         <!--android:layout_width="wrap_content"-->

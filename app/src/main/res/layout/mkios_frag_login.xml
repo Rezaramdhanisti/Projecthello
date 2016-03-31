@@ -119,7 +119,7 @@
         <Button
             android:id="@+id/mkios_btn_sign_in"
             style="?android:textAppearanceSmall"
-            android:layout_width="150dp"
+            android:layout_width="300dp"
             android:layout_height="38dp"
             android:text="@string/action_sign_in"
             android:textStyle="bold"
@@ -133,7 +133,7 @@
             android:layout_alignStart="@+id/button_mkios_ubah_pin" />
 
         <Button
-            android:layout_width="150dp"
+            android:layout_width="300dp"
             android:layout_height="38dp"
             android:text="Ubah Pin Mkios"
             android:layout_marginTop="37dp"
@@ -143,12 +143,10 @@
             android:fontFamily="sans-serif"
             android:textSize="13sp"
             android:layout_below="@+id/mkios_btn_sign_in"
-            android:layout_alignLeft="@+id/textView6"
-            android:layout_alignStart="@+id/textView6"
             android:layout_centerHorizontal="true"/>
 
         <Button
-            android:layout_width="150dp"
+            android:layout_width="300dp"
             android:layout_height="38dp"
             android:fontFamily="sans-serif"
             android:textSize="13sp"
@@ -158,8 +156,6 @@
             android:layout_centerHorizontal="true"
             android:background="@drawable/button_rounded"
             android:layout_below="@+id/button_mkios_ubah_pin"
-            android:layout_alignLeft="@+id/button_mkios_ubah_pin"
-            android:layout_alignStart="@+id/button_mkios_ubah_pin"
             android:layout_marginTop="37dp" />
 
     </RelativeLayout>

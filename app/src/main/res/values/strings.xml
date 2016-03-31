@@ -139,7 +139,7 @@
     <string name="drawer_menu_main_transfer" translatable="false">Transfer</string>
     <string name="drawer_menu_main_payment">Pembayaran</string>
     <string name="drawer_menu_account_title">Menu</string>
-    <string name="drawer_menu_account_edit">Pengatur Akun</string>
+    <string name="drawer_menu_account_edit">Pengaturan Akun</string>
     <string name="drawer_menu_account_transaction_history">Riwayat Transaksi</string>
     <string name="drawer_menu_account_cash_reward" translatable="false">Hadiah Tunai</string>
     <string name="drawer_menu_account_promo" translatable="false">Promo</string>
