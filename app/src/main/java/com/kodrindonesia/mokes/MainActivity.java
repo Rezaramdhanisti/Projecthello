@@ -26,6 +26,7 @@ import com.kodrindonesia.mokes.models.FragmentAgent;
 import com.kodrindonesia.mokes.models.FragmentHadiah;
 import com.kodrindonesia.mokes.models.FragmentPengaturan;
 import com.kodrindonesia.mokes.models.FragmentPromo;
+import com.kodrindonesia.mokes.models.Fragment_souvenir;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -216,7 +217,8 @@ public class MainActivity extends AppCompatActivity
             setupFragmentPromo();
         }
         else if (id == R.id.nav_account_merchants) {
-            Toast.makeText(this, getString(R.string.drawer_menu_account_merchants),Toast.LENGTH_SHORT).show();
+            setupFragmentUser();
+            setupFragment_souvenir();
         }
         else if (id == R.id.nav_account_mkios) {
             goMKios();
@@ -346,6 +348,12 @@ public class MainActivity extends AppCompatActivity
     public void setupFragmentPromo() {
         if (Misc == null || !(Misc instanceof FragmentPromo)) {
             Misc = FragmentPromo.newInstance(getString(R.string.toolbar_title_promo));
+        }
+        setupFragMainAfterFiltering(Misc);
+    }
+    public void setupFragment_souvenir() {
+        if (Misc == null || !(Misc instanceof Fragment_souvenir)) {
+            Misc = Fragment_souvenir.newInstance(getString(R.string.toolbar_title_souvenir));
         }
         setupFragMainAfterFiltering(Misc);
     }
