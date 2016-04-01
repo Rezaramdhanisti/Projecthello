@@ -14,8 +14,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.kodrindonesia.mokes.api.Api;
 import com.kodrindonesia.mokes.api.UsersApi;
 import com.kodrindonesia.mokes.models.User;
@@ -134,6 +132,7 @@ public class FragmentRegister extends Fragment {
 
             //create service
             UsersApi usersApi = Api.connect(UsersApi.class);
+//            Log.d("Mokes",etEmail.getText().toString(), etPass.getText().toString(), etFName.getText().toString(), new Callback<User>()){
             usersApi.userRegister(etEmail.getText().toString(), etPass.getText().toString(), etFName.getText().toString(), new Callback<User>() {
 
                 @Override
@@ -145,7 +144,7 @@ public class FragmentRegister extends Fragment {
                         String code = user.getCode();
                         String message = user.getMessage();
                         Log.d("MOKES", "Registrasi berhasil, Code: " + code + " Message: " + message);
-                        if(code.equals("200")) {
+                        if (code.equals("200")) {
                             Toast.makeText(getContext(), "Pendaftaran Berhasil, Anda dapat login sekarang.", Toast.LENGTH_SHORT).show();
                             startActivity(goingBack);
                         }
