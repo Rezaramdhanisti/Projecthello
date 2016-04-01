@@ -7,49 +7,53 @@
 
 
     <TextView
-        android:layout_width="144dp"
-        android:layout_height="wrap_content"
-        android:text="Pilih Jenis Transaksi"
-        android:id="@+id/form_pilih_jenis_transaksi"
-        android:fontFamily="sans-serif"
-        android:textColor="#ffffffff"
-        android:background="#ff0d0d"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="42dp"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="48dp" />
+    android:id="@+id/purch_cr_pin_pass"
+    android:layout_width="match_parent"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:hint="Pilih Jenis Transaksi"
+    android:fontFamily="sans-serif"
+        android:textAlignment="center"
+    android:textSize="14sp"
+    android:inputType="textPassword"
+    android:imeOptions="actionDone"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:backgroundTint="#EF1414"/>
+
+
+<Button
+android:layout_width="330dp"
+android:layout_height="38dp"
+android:layout_marginBottom="5dp"
+android:layout_marginTop="50dp"
+android:layout_marginLeft="30dp"
+android:layout_marginRight="30dp"
+android:minWidth="@dimen/btn_minwidth_vert"
+android:text="Top Up Deposit"
+android:fontFamily="sans-serif"
+android:textSize="14sp"
+android:id="@+id/purch_cr_btn_purchase"
+android:layout_gravity="center_horizontal"
+android:background="@drawable/button_rounded"
+android:textColor="#ffffff" />
     <Button
-        android:id="@+id/form_top_up_deposit"
-        style="?android:textAppearanceSmall"
-        android:layout_width="150dp"
-        android:layout_height="20dp"
-        android:text="Top up Deposit"
-        android:textStyle="bold"
-        android:layout_weight="1"
-        android:fontFamily="sans-serif"
-        android:textSize="14sp"
-        android:background="@drawable/button_rounded"
-        android:textColor="#ffffff"
-        android:layout_marginTop="21dp"
-        android:layout_below="@+id/form_pilih_jenis_transaksi"
-        android:layout_alignLeft="@+id/form_pilih_jenis_transaksi"
-        android:layout_alignStart="@+id/form_pilih_jenis_transaksi" />
-    <Button
-        android:id="@+id/form_top_up_rs"
-        style="?android:textAppearanceSmall"
-        android:layout_width="150dp"
-        android:layout_height="20dp"
+        android:layout_width="330dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:minWidth="@dimen/btn_minwidth_vert"
         android:text="Top Up RS"
-        android:textStyle="bold"
-        android:layout_weight="1"
         android:fontFamily="sans-serif"
         android:textSize="14sp"
+        android:id="@+id/purch_cr_btn_agen"
+        android:layout_gravity="center_horizontal"
         android:background="@drawable/button_rounded"
-        android:textColor="#ffffff"
-        android:layout_marginTop="22dp"
-        android:layout_below="@+id/form_top_up_deposit"
-        android:layout_alignLeft="@+id/form_top_up_deposit"
-        android:layout_alignStart="@+id/form_top_up_deposit" />
+        android:textColor="#ffffff" />
+
+
 </RelativeLayout>

@@ -28,9 +28,6 @@ Button Topupdeposit,Topuprs;
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_agent,container,false);
-        Button Topupdeposit = (Button) view.findViewById(R.id.form_top_up_deposit);
-        Button Topuprs = (Button) view.findViewById(R.id.form_top_up_rs);
-        TextView jenistransaksi = (TextView) view.findViewById(R.id.form_pilih_jenis_transaksi);
 
 
         return view;
