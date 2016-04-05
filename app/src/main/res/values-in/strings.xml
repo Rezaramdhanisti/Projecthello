@@ -77,6 +77,7 @@
     <string name="spinner_select_provider">-- Pilih Provider --</string>
     <string name="spinner_select_nominal">-- Pilih Nominal --</string>
     <string name="toolbar_title_payment">Pembayaran</string>
+    <string name="toolbar_title_topupmkios">Top Up Stock Mkios</string>
     <string name="mkios_ret_stock_sel_nominal">Pilih Nominal</string>
     <string name="toolbar_title_information">Informasi</string>
     <string name="toolbar_title_purch_credit">Beli Pulsa</string>

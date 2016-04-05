@@ -21,6 +21,7 @@ import com.kodrindonesia.mokes.MKIOS.FragmentLogin;
 import com.kodrindonesia.mokes.MKIOS.FragmentMKiosDashBoard;
 import com.kodrindonesia.mokes.MKIOS.FragmentNext;
 import com.kodrindonesia.mokes.MKIOS.FragmentRiwayat;
+import com.kodrindonesia.mokes.MKIOS.FragmentStockMkios;
 import com.kodrindonesia.mokes.MKIOS.UserLoginMKios;
 import com.kodrindonesia.mokes.models.FragmentAgent;
 import com.kodrindonesia.mokes.models.FragmentHadiah;
@@ -399,6 +400,12 @@ public class MainActivity extends AppCompatActivity
     public void setupFragmentTopUp(){
         if (Misc == null || !(Misc instanceof FragmentTopUp)) {
             Misc = FragmentTopUp.newInstance(getString(R.string.toolbar_title_information));
+        }
+        setupFragMainAfterFiltering(Misc);
+    }
+    public void setupFragmentStockMkios(){
+        if (Misc == null || !(Misc instanceof FragmentStockMkios)) {
+            Misc = FragmentStockMkios.newInstance(getString(R.string.toolbar_title_stock_mkios));
         }
         setupFragMainAfterFiltering(Misc);
     }

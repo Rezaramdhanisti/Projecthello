@@ -26,11 +26,11 @@
     </array>
 
 
-    <array name="sms_center">
-        <item>@string/spinner_select_sms</item>
-        <item>SMS Center 1</item>
-        <item>SMS Center 2</item>
-        <item>SMS Center 3</item>
+    <array name="select_provinsi">
+        <item>--Cluster--</item>
+        <item>Mamuju</item>
+        <item>Makassar</item>
+        <item>Luwuk</item>
     </array>
     <array name="bank_dummy">
         <item>@string/spinner_select_bank</item>

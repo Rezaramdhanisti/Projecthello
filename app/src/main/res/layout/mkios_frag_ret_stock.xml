@@ -8,20 +8,21 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_horizontal_margin">
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="38dp"
             android:layout_marginBottom="5dp"
-            android:layout_marginTop="380dp"
+            android:layout_marginTop="470dp"
             android:minWidth="@dimen/btn_minwidth_vert"
             android:text="@string/lbl_btn_proses"
             android:id="@+id/btn_proses"
-            android:layout_marginLeft="70dp"
-            android:layout_marginRight="70dp"
             android:layout_gravity="center_horizontal"
             android:fontFamily="sans-serif"
             android:textSize="14sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:background="@drawable/button_rounded"
             android:textColor="#ffffff"
             android:singleLine="false" />
@@ -35,23 +36,23 @@
             android:layout_gravity="center_horizontal"
             android:fontFamily="sans-serif"
             android:textSize="14sp"
-            android:layout_marginLeft="110dp"
-            android:layout_marginTop="430dp"/>
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="520dp"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="38dp"
-            android:layout_marginBottom="2dp"
-            android:layout_marginLeft="70dp"
             android:fontFamily="sans-serif"
             android:textSize="14sp"
-            android:layout_marginRight="70dp"
-            android:layout_marginTop="450dp"
             android:minWidth="@dimen/btn_minwidth_vert"
             android:text="@string/mkios_credit_transfer_btn_topup"
             android:id="@+id/btn_tambahsaldo_dua"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/button_rounded"
-            android:textColor="#ffffff" />
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/saldo_tidak_cukup"
+            android:layout_centerHorizontal="true" />
 
 
 
@@ -60,9 +61,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:layout_weight="2"
-            android:layout_marginBottom="120dp"
-            android:paddingLeft="@dimen/medium_mrgn"
-            android:paddingRight="@dimen/medium_mrgn">
+            android:layout_marginBottom="120dp">
 
 
             <TextView
@@ -117,6 +116,7 @@
                 android:singleLine="true"
                 android:textAlignment="center"
                 android:clickable="true"
+                android:gravity="center"
                 android:focusable="true"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
@@ -234,12 +234,12 @@
                 android:layout_marginRight="30dp"
                 android:background="@color/colorMainRed"/>
             <Spinner
-                android:id="@+id/purch_cr_select_sms"
+                android:id="@+id/purch_cr_select_provinsi"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:layout_marginTop="2dp"
                 android:layout_marginBottom="2dp"
-                android:entries="@array/sms_center"
+                android:entries="@array/select_provinsi"
                 android:fontFamily="sans-serif"
                 android:textSize="14sp"
                 android:layout_marginLeft="30dp"
@@ -257,9 +257,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:layout_weight="4"
-            android:layout_marginBottom="150dp"
-            android:paddingLeft="@dimen/medium_mrgn"
-            android:paddingRight="@dimen/medium_mrgn">
+            android:layout_marginBottom="150dp">
 
 
             <TextView
@@ -274,15 +272,14 @@
                 android:textSize="14sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:paddingTop="60dp"
+                android:paddingTop="62dp"
                 android:paddingBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="12dp"
                 android:layout_marginLeft="250dp"/>
             <View
                 android:layout_width="50dp"
                 android:layout_height="2dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginRight="15dp"
                 android:background="@color/colorMainRed"/>
 
             <TextView

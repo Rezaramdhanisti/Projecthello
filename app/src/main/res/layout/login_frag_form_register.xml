@@ -158,10 +158,9 @@
             <Button
                 android:id="@+id/form_register_button"
                 style="?android:textAppearanceSmall"
-                android:layout_width="wrap_content"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:text="@string/form_reg_btn_register"
-                android:layout_marginLeft="30dp"
                 android:fontFamily="sans-serif"
                 android:textSize="12sp"
                 android:background="@drawable/button_rounded"

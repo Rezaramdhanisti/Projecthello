@@ -9,195 +9,183 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginBottom="@dimen/medium_mrgn"
-        android:paddingLeft="@dimen/medium_mrgn"
-        android:paddingRight="@dimen/medium_mrgn">
+        android:layout_marginBottom="@dimen/medium_mrgn">
 
 
-        <TextView
-            android:id="@+id/mkios_credit_topup"
-            android:layout_width="match_parent"
-            android:layout_height="25dp"
+        <Button
+            android:id="@+id/mkios_credit_topup_pertama"
+            android:layout_width="300dp"
+            android:layout_height="38dp"
             android:hint="@string/mkios_dsb_topup_credit"
+            android:textColor="#ffffff"
             android:maxLines="1"
             android:singleLine="true"
             android:fontFamily="sans-serif"
+            android:minWidth="@dimen/btn_minwidth_vert"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_rounded"
             android:textSize="14sp"
             android:textAlignment="center"
-            android:clickable="true"
-            android:focusable="true"
-            android:layout_marginTop="40dp"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:background="@color/colorMainRed"/>
+            android:layout_marginTop="40dp"
+            android:textColorHint="#ffffff" />
 
-        <TextView
+
+        <Button
                 android:id="@+id/mkios_credit_tranfer"
-                android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_width="300dp"
+                android:layout_height="38dp"
+            android:textColor="#ffffff"
                 android:hint="@string/mkios_dsb_credit_transfer"
                 android:maxLines="1"
                 android:singleLine="true"
                 android:fontFamily="sans-serif"
                 android:textSize="14sp"
                 android:textAlignment="center"
-                android:clickable="true"
-                android:focusable="true"
-                android:layout_marginTop="10dp"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:background="@color/colorMainRed"/>
-            <TextView
+            android:minWidth="@dimen/btn_minwidth_vert"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_rounded"
+                android:layout_marginTop="10dp"
+            android:textColorHint="#ffffff" />
+            <Button
                 android:id="@+id/mkios_data_packet_transfer"
-                android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_width="300dp"
+                android:layout_height="38dp"
                 android:hint="@string/mkios_dsb_data_packet_transfer"
                 android:maxLines="1"
                 android:singleLine="true"
                 android:fontFamily="sans-serif"
                 android:textSize="14sp"
                 android:textAlignment="center"
-                android:clickable="true"
-                android:focusable="true"
-                android:layout_marginTop="10dp"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:fontFamily="sans-serif"
-            android:textSize="13sp"
-            android:background="@color/colorMainRed"/>
+                android:minWidth="@dimen/btn_minwidth_vert"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_rounded"
+                android:layout_marginTop="10dp"
+                android:textColorHint="#ffffff" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="25dp"
-            android:text="@string/transfer_asking_add_balance"
-            android:id="@+id/tv_asking_add_balance"
-            android:layout_gravity="center_horizontal"
-            android:fontFamily="sans-serif"
-            android:textSize="14sp"
-            android:layout_marginTop="10dp"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:fontFamily="sans-serif"
-            android:textSize="13sp"
-            android:background="@color/colorMainRed"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="25dp"
-            android:text="@string/mkios_dsb_refresh_kartu"
-            android:id="@+id/mkios_refresh_kartu"
-            android:layout_gravity="center_horizontal"
-            android:fontFamily="sans-serif"
-            android:textSize="14sp"
-            android:layout_marginTop="10dp"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:fontFamily="sans-serif"
-            android:textSize="13sp"
-            android:background="@color/colorMainRed"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="25dp"
-            android:text="@string/mkios_dsb_cek_status"
-            android:id="@+id/mkios_cek_status"
-            android:layout_gravity="center_horizontal"
-            android:fontFamily="sans-serif"
-            android:textSize="14sp"
-            android:layout_marginTop="10dp"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:fontFamily="sans-serif"
-            android:textSize="13sp"
-            android:background="@color/colorMainRed"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="25dp"
-            android:text="@string/mkios_dsb_cek_stock"
-            android:id="@+id/mkios_cek_stock"
-            android:layout_gravity="center_horizontal"
-            android:fontFamily="sans-serif"
-            android:textSize="14sp"
-            android:layout_marginTop="10dp"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:fontFamily="sans-serif"
-            android:textSize="13sp"
-            android:background="@color/colorMainRed"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="25dp"
-            android:text="@string/mkios_dsb_nsp"
-            android:id="@+id/mkios_nsp"
-            android:layout_gravity="center_horizontal"
-            android:fontFamily="sans-serif"
-            android:textSize="14sp"
-            android:layout_marginTop="10dp"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:fontFamily="sans-serif"
-            android:textSize="13sp"
-            android:background="@color/colorMainRed"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="25dp"
-            android:text="@string/mkios_dsb_layanan_tdc"
-            android:id="@+id/layanan_tdc"
-            android:layout_gravity="center_horizontal"
-            android:fontFamily="sans-serif"
-            android:textSize="14sp"
-            android:layout_marginTop="10dp"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:fontFamily="sans-serif"
-            android:textSize="13sp"
-            android:background="@color/colorMainRed"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:id="@+id/mkios_data_saldo_tdk_mencukupi"
+            android:layout_width="300dp"
             android:layout_height="38dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="70dp"
-            android:layout_marginRight="70dp"
-            android:minWidth="@dimen/btn_minwidth_vert"
-            android:text="@string/ctr_add_balance"
+            android:hint="@string/transfer_asking_add_balance"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#ffffff"
             android:fontFamily="sans-serif"
             android:textSize="14sp"
-            android:id="@+id/mkios_btn_add_balance"
+            android:textAlignment="center"
+            android:minWidth="@dimen/btn_minwidth_vert"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/button_rounded"
-            android:textColor="#ffffff" />
+            android:layout_marginTop="10dp"
+            android:textColorHint="#ffffff" />
+
+
+        <Button
+            android:id="@+id/mkios_data_refresh_kartu"
+            android:layout_width="300dp"
+            android:layout_height="38dp"
+            android:hint="@string/mkios_dsb_refresh_kartu"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:minWidth="@dimen/btn_minwidth_vert"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_rounded"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#ffffff" />
+
+        <Button
+            android:id="@+id/mkios_data_cek_status"
+            android:layout_width="300dp"
+            android:layout_height="38dp"
+            android:hint="@string/mkios_dsb_cek_status"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:minWidth="@dimen/btn_minwidth_vert"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_rounded"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#ffffff" />
+
+        <Button
+            android:id="@+id/mkios_data_cek_stock"
+            android:layout_width="300dp"
+            android:textColor="#ffffff"
+            android:layout_height="38dp"
+            android:hint="@string/mkios_dsb_cek_stock"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:minWidth="@dimen/btn_minwidth_vert"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_rounded"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#ffffff" />
+
+
+        <Button
+            android:id="@+id/mkios_data_nsp"
+            android:layout_width="300dp"
+            android:layout_height="38dp"
+            android:hint="@string/mkios_dsb_nsp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:minWidth="@dimen/btn_minwidth_vert"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_rounded"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#ffffff" />
+
+
+        <Button
+            android:id="@+id/mkios_data_layanan_tdc"
+            android:layout_width="300dp"
+            android:layout_height="38dp"
+            android:hint="@string/mkios_dsb_layanan_tdc"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:minWidth="@dimen/btn_minwidth_vert"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_rounded"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#ffffff" />
+
+        <Button
+            android:id="@+id/mkios_data_ctr_add_balance"
+            android:layout_width="300dp"
+            android:layout_height="38dp"
+            android:hint="@string/ctr_add_balance"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:minWidth="@dimen/btn_minwidth_vert"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_rounded"
+            android:layout_marginTop="10dp"/>
+
 
 
     </LinearLayout>

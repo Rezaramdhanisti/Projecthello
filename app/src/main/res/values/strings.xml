@@ -147,7 +147,7 @@
     <string name="drawer_menu_accout_mdc">MDC</string>
     <string name="drawer_menu_account_mkios" translatable="false">M-Kios</string>
     <string name="error_invalid_input">Kesalahan Input</string>
-    <string name="spinner_select_bank">--Pilih Bank</string>
+    <string name="spinner_select_bank">--Pilih Bank--</string>
     <string name="spinner_select_provider">--Pilih Provider--</string>
     <string name="spinner_selet_pulsa">--Pilih Pembelian Pulsa--</string>
     <string name="spinner_select_nominal">--Pilih Nominal--</string>
@@ -159,6 +159,7 @@
     <string name="toolbar_title_transfer">Transfer Saldo</string>
     <string name="toolbar_title_confirmation">Konfirmasi</string>
     <string name="toolbar_title_mkios" translatable="false">M-Kios</string>
+    <string name="toolbar_title_stock_mkios">Top Up Stock Mkios</string>
     <string name="toolbar_title_dashboard">Beranda</string>
     <string name="toolbar_title_agent">Agen</string>
     <string name="toolbar_title_pengaturan">Pengaturan</string>
