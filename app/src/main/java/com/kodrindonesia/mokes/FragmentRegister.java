@@ -132,7 +132,7 @@ public class FragmentRegister extends Fragment {
 
             //create service
             UsersApi usersApi = Api.connect(UsersApi.class);
-            usersApi.userRegister(etEmail.getText().toString(), etPass.getText().toString(), etFName.getText().toString(), new Callback<User>() {
+            usersApi.userRegister(etEmail.getText().toString(), etPass.getText().toString(), etFName.getText().toString(),etUserName.getText().toString(),etPhoneNo.getText().toString(), new Callback<User>() {
 
                 @Override
                 public void success(User user, Response response) {

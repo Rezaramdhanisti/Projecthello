@@ -18,5 +18,5 @@ public interface UsersApi {
 
     @GET("/auth/register")
 //    Callback<User> userLogin(Callback<User> callback);
-    void userRegister(@Query("email") String email, @Query("password") String password, @Query("name") String name, Callback<User> callback);
+    void userRegister(@Query("email") String email, @Query("password") String password, @Query("name") String name, @Query("username") String username,@Query("phone") String phone,Callback<User> callback);
 }

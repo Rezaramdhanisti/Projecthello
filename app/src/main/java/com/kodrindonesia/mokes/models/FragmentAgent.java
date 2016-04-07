@@ -55,18 +55,18 @@ Button Topupdeposit,Topuprs;
     }
 
     private void onBtnCliked(View item) {
-        int id = item.getId();
+//        int id = item.getId();
+//
+//        if (id == R.id.purch_cr_btn_agen_satu) {
+//            mainActivity.setupFragmentUser();
+//            mainActivity.setupFragmenttopupdeposit();
+//        }
+//        if (id == R.id.purch_cr_btn_agen_dua) {
+//            mainActivity.setupFragmentUser();
+//            mainActivity.setupFragmenttopuprs();
+//        }
+//    }
 
-        if (id == R.id.purch_cr_btn_agen_satu) {
-            mainActivity.setupFragmentUser();
-            mainActivity.setupFragmenttopupdeposit();
-        }
-        if (id == R.id.purch_cr_btn_agen_dua) {
-            mainActivity.setupFragmentUser();
-            mainActivity.setupFragmenttopuprs();
-        }
     }
-
-
 
 }
