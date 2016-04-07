@@ -60,9 +60,6 @@
                 android:id="@+id/nav_account_merchants"
                 android:title="@string/drawer_menu_account_merchants" />
             <item
-                android:id="@+id/nav_account_mdc"
-                android:title="@string/drawer_menu_accout_mdc" />
-            <item
                 android:id="@+id/nav_account_mkios"
                 android:title="@string/drawer_menu_account_mkios" />
         </menu>

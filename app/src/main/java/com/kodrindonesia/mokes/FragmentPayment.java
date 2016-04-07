@@ -9,7 +9,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
 
 /**
  * Created by royyan on 2/11/2016.
@@ -63,7 +62,6 @@ public class FragmentPayment extends Fragment {
         int id = item.getId();
 
         if (id == R.id.purch_cr_btn_next) {
-            Toast.makeText(getContext(), "Konfirmasi Password", Toast.LENGTH_SHORT).show();
             mainActivity.setupFragmentUser();
             mainActivity.setupFragmentNext();
         }

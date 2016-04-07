@@ -147,13 +147,15 @@
         android:layout_gravity="bottom"
         android:backgroundTint="#EF1414" />
     <Button
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="38dp"
         android:fontFamily="sans-serif"
         android:textSize="14sp"
         android:layout_marginTop="30dp"
         android:minWidth="@dimen/btn_minwidth_vert"
         android:text="Next"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:id="@+id/purch_cr_btn_next"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/button_rounded"

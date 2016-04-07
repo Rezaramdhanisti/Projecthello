@@ -154,6 +154,8 @@
     <string name="spinner_select_sms">--SMS Center--</string>
     <string name="toolbar_title_home" translatable="false">Beranda</string>
     <string name="toolbar_title_payment">Pembayaran</string>
+    <string name="toolbar_title_topupdeposit">Top Up Deposit</string>
+    <string name="toolbar_title_topuprs">Top Up Rs</string>
     <string name="toolbar_title_information">Informasi</string>
     <string name="toolbar_title_purch_credit">Pulsa</string>
     <string name="toolbar_title_transfer">Transfer Saldo</string>

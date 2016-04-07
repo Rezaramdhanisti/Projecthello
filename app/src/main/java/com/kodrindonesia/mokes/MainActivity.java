@@ -28,6 +28,8 @@ import com.kodrindonesia.mokes.models.FragmentHadiah;
 import com.kodrindonesia.mokes.models.FragmentPengaturan;
 import com.kodrindonesia.mokes.models.FragmentPromo;
 import com.kodrindonesia.mokes.models.Fragment_souvenir;
+import com.kodrindonesia.mokes.models.Fragmenttopupdeposit;
+import com.kodrindonesia.mokes.models.Fragmenttopuprs;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -415,6 +417,19 @@ public class MainActivity extends AppCompatActivity
         }
         setupFragMainAfterFiltering(Misc);
     }
+    public void setupFragmenttopupdeposit(){
+        if (Misc == null || !(Misc instanceof Fragmenttopupdeposit)) {
+            Misc = Fragmenttopupdeposit.newInstance(getString(R.string.toolbar_title_topupdeposit));
+        }
+        setupFragMainAfterFiltering(Misc);
+    }
+    public void setupFragmenttopuprs(){
+        if (Misc == null || !(Misc instanceof Fragmenttopuprs)) {
+            Misc = Fragmenttopuprs.newInstance(getString(R.string.toolbar_title_topuprs));
+        }
+        setupFragMainAfterFiltering(Misc);
+    }
+
 
 
     public void setupFragmentUser(){
