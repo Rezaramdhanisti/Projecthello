@@ -26,7 +26,7 @@
 
     </android.support.design.widget.TextInputLayout>
     <Spinner
-        android:id="@+id/select_pln"
+        android:id="@+id/select_provin"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:entries="@array/select_provinsi"
@@ -44,11 +44,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="45dp">
         <EditText
-            android:id="@+id/PDAM"
+            android:id="@+id/pilipili"
             android:layout_width="match_parent"
             android:layout_marginLeft="30dp"
             android:layout_height="wrap_content"
-            android:hint="@string/pembayaran_pdam"
+            android:hint="Nominal"
             android:layout_marginTop="105dp"
             android:fontFamily="sans-serif"
             android:textSize="14sp"
@@ -66,12 +66,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp">
         <EditText
-            android:id="@+id/Telkom"
+            android:id="@+id/pilipilili"
             android:layout_width="match_parent"
             android:layout_marginLeft="30dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="150dp"
-            android:hint="@string/pembayaran_telkom"
+            android:hint="Pin Mokes"
             android:layout_marginRight="30dp"
             android:textColor="#000000"
             android:textSize="14sp"
