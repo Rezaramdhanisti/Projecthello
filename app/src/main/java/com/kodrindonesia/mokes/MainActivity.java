@@ -25,6 +25,7 @@ import com.kodrindonesia.mokes.MKIOS.FragmentStockMkios;
 import com.kodrindonesia.mokes.MKIOS.UserLoginMKios;
 import com.kodrindonesia.mokes.models.FragmentAgent;
 import com.kodrindonesia.mokes.models.FragmentHadiah;
+import com.kodrindonesia.mokes.models.FragmentNotifikasi;
 import com.kodrindonesia.mokes.models.FragmentPengaturan;
 import com.kodrindonesia.mokes.models.FragmentPromo;
 import com.kodrindonesia.mokes.models.Fragment_souvenir;
@@ -227,6 +228,10 @@ public class MainActivity extends AppCompatActivity
             setupFragmentUser();
             setupFragment_souvenir();
         }
+        else if (id == R.id.nav_account_notifikasi) {
+            setupFragmentUser();
+            setupFragmentNotifikasi();
+        }
         else if (id == R.id.nav_account_mkios) {
             goMKios();
         }
@@ -343,6 +348,12 @@ public class MainActivity extends AppCompatActivity
     public void setupFragmentAgent() {
         if (Misc == null || !(Misc instanceof FragmentAgent)) {
             Misc = FragmentAgent.newInstance(getString(R.string.toolbar_title_agent));
+        }
+        setupFragMainAfterFiltering(Misc);
+    }
+    public void setupFragmentNotifikasi() {
+        if (Misc == null || !(Misc instanceof FragmentNotifikasi)) {
+            Misc = FragmentNotifikasi.newInstance(getString(R.string.toolbar_title_notif));
         }
         setupFragMainAfterFiltering(Misc);
     }

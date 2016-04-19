@@ -164,6 +164,7 @@
     <string name="toolbar_title_stock_mkios">Top Up Stock Mkios</string>
     <string name="toolbar_title_dashboard">Beranda</string>
     <string name="toolbar_title_agent">Agen</string>
+    <string name="toolbar_title_notif">Notifikasi</string>
     <string name="toolbar_title_pengaturan">Pengaturan</string>
     <string name="toolbar_title_hadiah">Hadiah Tunai</string>
     <string name="toolbar_title_promo">Promo</string>
