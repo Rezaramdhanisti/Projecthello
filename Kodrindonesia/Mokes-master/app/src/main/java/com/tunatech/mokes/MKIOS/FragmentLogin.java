@@ -1,4 +1,4 @@
-package com.kodrindonesia.mokes.MKIOS;
+package com.Reza.leo.MKIOS;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -18,9 +18,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 
-import com.kodrindonesia.mokes.LoginActivity;
-import com.kodrindonesia.mokes.MainActivity;
-import com.kodrindonesia.mokes.R;
+import com.Reza.leo.LoginActivity;
+import com.Reza.leo.MainActivity;
+import com.Reza.leo.R;
 
 /**
  * Created by royyan on 2/11/2016.

@@ -2,16 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mainBackground">
+    android:background="#ffffff">
     <ImageView
-        android:layout_width="@dimen/mokes_w"
-        android:layout_height="@dimen/mokes_h"
-        android:id="@+id/login_img_mokes"
+        android:layout_width="530dp"
+        android:layout_height="600dp"
+        android:id="@+id/login_img_dondons"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/mokes"
+        android:src="@drawable/dodon"
         android:scaleType="fitCenter"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="215dp" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center|center_horizontal"
     android:orientation="vertical"
-    tools:context="com.example.royyan.loginapp.LoginActivity"
-    android:background="@color/mainBackground">
+    android:background="#ffffff">
 
     <!-- Login progress -->
     <ProgressBar
@@ -45,19 +43,19 @@
             android:weightSum="1">
 
             <ImageView
-                android:layout_width="@dimen/mokes_w"
-                android:layout_height="@dimen/mokes_h"
-                android:id="@+id/login_img_mokes"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:id="@+id/login_img_dondon"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/mokes"
-                android:layout_marginBottom="10dp"
+                android:src="@drawable/dodons"
+                android:layout_marginBottom="1dp"
                 android:scaleType="fitCenter" />
 
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="25dp">
+                    android:layout_marginTop="1dp">
                     <android.support.design.widget.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -83,7 +81,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/imageView3"
                         android:background="@drawable/ic_action_human"
-                        android:layout_centerVertical="true"
+                        android:layout_alignParentBottom="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true" />
 
@@ -137,7 +135,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/imageView2"
                         android:background="@drawable/ic_action_name"
-                        android:layout_centerVertical="true"
+                        android:layout_alignParentBottom="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true" />
                 </RelativeLayout>

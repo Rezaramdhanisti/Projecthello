@@ -1,4 +1,4 @@
-package com.kodrindonesia.mokes;
+package com.Reza.leo;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -21,8 +21,8 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.kodrindonesia.mokes.Domain.Authentication;
-import com.kodrindonesia.mokes.Domain.UserLoginTask;
+import com.Reza.leo.Domain.Authentication;
+import com.Reza.leo.Domain.UserLoginTask;
 
 /**
  * A login screen that offers login via email/password.

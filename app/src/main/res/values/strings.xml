@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Mokes</string>
+    <string name="app_name" translatable="false">Dondon</string>
 
     <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
@@ -22,9 +22,9 @@
     <string name="str_your_saldo">Saldo Anda</string>
     <string name="str_your_mkios_saldo">Saldo M-Kios Anda</string>
     <string name="ctr_add_balance">Tambah Saldo</string>
-    <string name="ctr_purchase_credit">Pulsa</string>
-    <string name="ctr_transfer" translatable="false">Transfer</string>
-    <string name="ctr_payment">Pembayaran</string>
+    <string name="sync_sync">Syncronize</string>
+    <string name="ctr_transaksis" >Transaksi</string>
+    <string name="ctr_hum_page">Home Pages</string>
     <string name="enter_email_address">Masukan alamat email</string>
     <string name="back_to_login">kembali ke login</string>
     <string name="lbl_btn_send">Kirim</string>
@@ -36,110 +36,16 @@
     <string name="form_reg_user_name">Nama Pengguna</string>
     <string name="form_reg_phone_number">Nomor Telepon</string>
 
-
-    <string name="paymnt_msg">Top up balance?</string>
-    <string name="paymnt_btn_topup" translatable="false">Top Up</string>
-    <string name="paymnt_btn_not_now">Tidak Sekarang</string>
-
-    <string name="topup_confirm">Konfirmasi Pembayaran</string>
-    <string name="topup_msg" translatable="false">Anda dpat mengisi saldo M-Cash Anda melalui ATM Bank manapun,
-        dengan melakukan transfer ke rekening dibawah ini dengan Nilai Saldo yang Anda inginkan
-        sesuai dengan nominal dana yang Anda transfer</string>
-    <string name="topup_bca" translatable="false">BCA</string>
-    <string name="topup_bca_acc_no" translatable="false">365 000 5678</string>
-    <string name="topup_bca_acc_name" translatable="false">a. n. PT Mitra Mediatma Solusindo</string>
-    <string name="topup_mandiri" translatable="false">BANK MANDIRI</string>
-    <string name="topup_topup_mandiri_acc_no" translatable="false">365 000 5678</string>
-    <string name="topup_topup_mandiri_acc_name" translatable="false">a. n. PT Mitra Mediatma Solusindo</string>
-
-
-    <string name="pembayaran_Telkomsel_halo">Telkomsel Halo</string>
-    <string name="pembayaran_pln">--PLN--</string>
-    <string name="pembayaran_pdam">PDAM</string>
-    <string name="pembayaran_telkom">Telkom</string>
-    <string name="pembayaran_bpjs">BPJS</string>
-    <string name="pembayaran_multifinance">--Multifinance--</string>
-    <string name="pembayaran_pln_pra_bayar">PLN Pra Bayar</string>
-    <string name="pembayaran_pln_pasca_bayar">PLN Pasca Bayar</string>
-    <string name="pembayaran_wom_multifinance">WOM Multifinance</string>
-    <string name="pembayaran_bussan_auto_finance">BUSSAN Auto Finance</string>
-    <string name="pembayaran_adira_multifinance">Adira Multifinance</string>
-    <string name="pembayaran_mega_auto">Mega Auto Finance</string>
-    <string name="pembayaran_tv_kabel">--Tv Kabel--</string>
-    <string name="pembayaran_indovision">Indovision</string>
-    <string name="pembayaran_telkom_vision">Telkomvision</string>
-    <string name="pembayaran_voucher_game">--Voucher Game--</string>
-    <string name="pembayaran_steam">Steam</string>
-    <string name="pembayaran_gemscoll">Gemscoll</string>
-
-
-    <string name="purch_cr_phone">Masukan No Handphone</string>
-    <string name="purch_cr_select_provider">--Pilih Provider--</string>
-    <string name="purch_cr_select_credit">--Pilih Nominal Pulsa--</string>
-    <string name="purch_cr_topup_telkomsel">Top Up Pulsa Telkomsel?</string>
-
-    <string name="transfer_msg">Anda dapat mentransfer dana kepada sesama pengguna Mokes</string>
-    <string name="transfer_nama_pengguna">Masukan Nama Pengguna</string>
-    <string name="transfer_nominal">Transfer Nominal</string>
-    <string name="transfer_write_msg">Tulis Pesan(Opsi)</string>
-    <string name="transfer_asking_add_balance">Saldo Anda Tidak Mencukupi?</string>
-
-    <string name="confirm_msg">Konfirmasi Data Transaksi</string>
-    <string name="confirm_bank">Bank Pengirim</string>
-    <string name="confirm_user_account">Nama Pemilik Rekening</string>
-    <string name="confirm_topup_nominal">Nominal Top Up</string>
-    <string name="confirm_write_msg">Tulis Pesan (Opsi)</string>
-    <string name="confirm_btn_upload">upload</string>
-    <string name="confirm_asking_upload_pic">Or \n upload the transaction token/proof picture here</string>
-    <string name="confirm_btn_file">Pilih File</string>
-
-    <string name="mkios_msg">Masukan ID M-Kios Anda</string>
-    <string name="mkios_phone_no">Nomor Handphone</string>
-    <string name="mkios_pin" translatable="false">Pin</string>
-
-    <string name="mkios_dsb_topup_credit">Top Up Stock MKios</string>
-    <string name="mkios_dsb_topup_data">Top Up Data Telkomsel</string>
-    <string name="mkios_dsb_credit_transfer">Isi Pulsa</string>
-    <string name="mkios_dsb_data_packet_transfer">Isi Paket Internet</string>
-    <string name="mkios_dsb_refresh_kartu">Refresh Kartu Mkios</string>
-    <string name="mkios_dsb_cek_status">Cek Status Transaksi</string>
-    <string name="mkios_dsb_cek_stock">Cek Stock</string>
-    <string name="mkios_dsb_nsp">NSP</string>
-    <string name="mkios_dsb_layanan_tdc">Layanan TDC</string>
-
-    <string name="mkios_top_up_jumlah">Jumlah</string>
-    <string name="mkios_top_up_kosong">0</string>
-    <string name="mkios_top_up_lima">Telkomsel 5.000</string>
-    <string name="mkios_top_up_duapuluh">Telkomsel 20.000</string>
-    <string name="mkios_top_up_sepuluh">Telkomsel 10.000</string>
-    <string name="mkios_top_up_duapuluhlima">Telkomsel 25.000</string>
-    <string name="mkios_top_up_limapuluh">Telkomsel 50.000</string>
-    <string name="mkios_top_up_seratus">Telkomsel 100.000</string>
-
-
-    <string name="mkios_credit_tranfer_msg">Anda Dapat Mentransfer Dana Kepada Sesama Pengguna MKios</string>
-    <string name="mkios_credit_transfer_phone_target">Masukan Email Tujuan</string>
-    <string name="mkios_credit_transfer_nominal">Nominal Transfer</string>
-    <string name="mkios_credit_transfer_topup_cr_telkomsel">Tambah Saldo</string>
-    <string name="mkios_credit_transfer_ask_topup_cr_telkomsel">Dana Tidak Mencukupi?</string>
-    <string name="mkios_credit_transfer_btn_topup">Tambah Saldo</string>
-    <string name="mkios_ret_stock_msg">Want to Return Stock? \nPlease select SKU stock and input restocked quantities</string>
-    <string name="mkios_ret_stock_nominal" translatable="false">Nominal</string>
-    <string name="mkios_ret_stock_quantity">Jumlah</string>
-    <string name="mkios_ret_stock_sel_nominal">Pilih Nominal</string>
-    <string name="mkios_ret_stock_btn_process">Proses</string>
-    <string name="mkios_ret_stock_saldo_tidak_cukup">Saldo Anda tidak mencukupi?</string>
     <string name="login_static_txt">Lupa kata sandi ?</string>
     <string name="lolgin_static_click_here">Klik disini</string>
     <string name="login_static_or">Atau menggunakan</string>
     <string name="drawer_menu_main_title">Menu Utama</string>
     <string name="drawer_menu_main_home">Beranda</string>
-    <string name="drawer_menu_main_beli_pulsa">Pulsa</string>
-    <string name="drawer_menu_main_add_balance">Tambah Saldo</string>
-    <string name="drawer_menu_main_transfer" translatable="false">Transfer</string>
-    <string name="drawer_menu_main_payment">Pembayaran</string>
+    <string name="drawer_menu_main_home_pag">Home Pages</string>
+    <string name="drawer_menu_main_transact">Transaction</string>
+    <string name="drawer_menu_main_syncx">Sync</string>
     <string name="drawer_menu_account_title">Menu</string>
-    <string name="drawer_menu_account_edit">Pengaturan Akun</string>
+    <string name="drawer_menu_main_recycle">RecyclerView</string>
     <string name="drawer_menu_account_transaction_history">Riwayat Transaksi</string>
     <string name="drawer_menu_account_cash_reward" translatable="false">Hadiah Tunai</string>
     <string name="drawer_menu_account_promo" translatable="false">Promo</string>
@@ -147,31 +53,13 @@
     <string name="drawer_menu_accout_mdc">MDC</string>
     <string name="drawer_menu_account_mkios" translatable="false">M-Kios</string>
     <string name="error_invalid_input">Kesalahan Input</string>
-    <string name="spinner_select_bank">--Pilih Bank--</string>
-    <string name="spinner_select_provider">--Pilih Provider--</string>
-    <string name="spinner_selet_pulsa">--Pilih Pembelian Pulsa--</string>
-    <string name="spinner_select_nominal">--Pilih Nominal--</string>
-    <string name="spinner_select_sms">--SMS Center--</string>
     <string name="toolbar_title_home" translatable="false">Beranda</string>
-    <string name="toolbar_title_payment">Pembayaran</string>
-    <string name="toolbar_title_topupdeposit">Top Up Deposit</string>
-    <string name="toolbar_title_topuprs">Top Up Rs</string>
+    <string name="toolbar_title_payment">Percobaan</string>
+    <string name="toolbar_title_transaks">Transaction Page</string>
     <string name="toolbar_title_information">Informasi</string>
     <string name="toolbar_title_purch_credit">Pulsa</string>
-    <string name="toolbar_title_transfer">Transfer Saldo</string>
-    <string name="toolbar_title_confirmation">Konfirmasi</string>
-    <string name="toolbar_title_mkios" translatable="false">M-Kios</string>
-    <string name="toolbar_title_stock_mkios">Top Up Stock Mkios</string>
+    <string name="toolbar_title_homepage">HomePages</string>
     <string name="toolbar_title_dashboard">Beranda</string>
-    <string name="toolbar_title_agent">Agen</string>
-    <string name="toolbar_title_notif">Notifikasi</string>
-    <string name="toolbar_title_pengaturan">Pengaturan</string>
-    <string name="toolbar_title_hadiah">Hadiah Tunai</string>
-    <string name="toolbar_title_promo">Promo</string>
-    <string name="toolbar_title_souvenir">Souvenir</string>
-    <string name="toolbar_title_riwayat">Riwayat Transaksi</string>
-    <string name="dialog_msg_transaction_succuess">Transaksi Sukses !</string>
-    <string name="dialog_msg_transaction_fail">Transaksasi Gagal !</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

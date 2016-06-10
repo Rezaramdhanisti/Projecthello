@@ -27,49 +27,22 @@
                 android:id="@+id/nav_main_home"
                 android:title="@string/drawer_menu_main_home" />
             <item
-                android:id="@+id/nav_main_beli_pulsa"
-                android:title="@string/drawer_menu_main_beli_pulsa" />
+                android:id="@+id/nav_main_percobaan"
+                android:title="@string/drawer_menu_main_home_pag" />
             <item
-                android:id="@+id/nav_main_add_balance"
-                android:title="@string/drawer_menu_main_add_balance" />
+                android:id="@+id/nav_main_transcation"
+                android:title="@string/drawer_menu_main_transact" />
             <item
-                android:id="@+id/nav_main_transfer"
-                android:title="@string/drawer_menu_main_transfer" />
+                android:id="@+id/nav_main_syncro"
+                android:title="@string/drawer_menu_main_syncx" />
             <item
-                android:id="@+id/nav_main_payment"
-                android:title="@string/drawer_menu_main_payment" />
+                android:id="@+id/nav_main_recycle"
+                android:title="@string/drawer_menu_main_recycle" />
+
         </menu>
     </item>
 
-    <item android:title="@string/drawer_menu_account_title"
-        android:icon="@drawable/ic_action_human">
-        <menu>
-            <item
-                android:id="@+id/nav_account_edit"
-                android:title="@string/drawer_menu_account_edit" />
-            <item
-                android:id="@+id/nav_account_transaction_history"
-                android:title="@string/drawer_menu_account_transaction_history" />
-            <item
-                android:id="@+id/nav_account_cash_reward"
-                android:title="@string/drawer_menu_account_cash_reward" />
-            <item
-                android:id="@+id/nav_account_promo"
-                android:title="@string/drawer_menu_account_promo" />
-            <item
-                android:id="@+id/nav_account_notifikasi"
-                android:title="Notifikasi" />
-            <item
-                android:id="@+id/nav_account_merchants"
-                android:title="@string/drawer_menu_account_merchants" />
-            <item
-                android:id="@+id/nav_account_mkios"
-                android:title="@string/drawer_menu_account_mkios" />
-        </menu>
-    </item>
-    <item
-        android:id="@+id/nav_agent"
-        android:title="Agen Pulsa" />
+
     <item
         android:id="@+id/nav_user_logout"
         android:title="Logout" />

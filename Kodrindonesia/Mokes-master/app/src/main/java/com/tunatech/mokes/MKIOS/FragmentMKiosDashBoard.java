@@ -1,4 +1,4 @@
-package com.kodrindonesia.mokes.MKIOS;
+package com.Reza.leo.MKIOS;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -10,8 +10,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.kodrindonesia.mokes.LoginActivity;
-import com.kodrindonesia.mokes.R;
+import com.Reza.leo.LoginActivity;
+import com.Reza.leo.R;
 
 /**
  * Created by royyan on 2/11/2016.

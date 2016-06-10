@@ -1,4 +1,4 @@
-package com.kodrindonesia.mokes;
+package com.Reza.leo;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,10 +16,10 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.kodrindonesia.mokes.Domain.Authentication;
-import com.kodrindonesia.mokes.MKIOS.FragmentLogin;
-import com.kodrindonesia.mokes.MKIOS.FragmentMKiosDashBoard;
-import com.kodrindonesia.mokes.MKIOS.UserLoginMKios;
+import com.Reza.leo.Domain.Authentication;
+import com.Reza.leo.MKIOS.FragmentLogin;
+import com.Reza.leo.MKIOS.FragmentMKiosDashBoard;
+import com.Reza.leo.MKIOS.UserLoginMKios;
 
 import java.util.ArrayList;
 import java.util.List;

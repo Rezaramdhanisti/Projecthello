@@ -17,7 +17,7 @@
             <ImageButton
                 android:layout_width="@dimen/btn_ctr_room_size"
                 android:layout_height="@dimen/btn_ctr_room_size"
-                android:id="@+id/btn_payment"
+                android:id="@+id/btn_home_page"
                 android:src="@drawable/ctr_payment"
                 android:scaleType="fitCenter"
                 android:background="@android:color/transparent"
@@ -29,7 +29,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/ctr_payment"
+                    android:text="@string/ctr_hum_page"
                     android:fontFamily="sans-serif"
                     android:textSize="14sp"
                     android:textColor="@color/colorMainRed"
@@ -44,8 +44,8 @@
             <ImageButton
                 android:layout_width="@dimen/btn_ctr_room_size"
                 android:layout_height="@dimen/btn_ctr_room_size"
-                android:id="@+id/btn_transfer"
-                android:src="@drawable/ctr_transfer"
+                android:id="@+id/btn_transaksi_"
+                android:src="@drawable/ctr_add_balance"
                 android:scaleType="fitCenter"
                 android:background="@android:color/transparent"
                 android:layout_marginTop="@dimen/ctr_btn_mrgn"
@@ -56,7 +56,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/ctr_transfer"
+                android:text="@string/ctr_transaksis"
                 android:fontFamily="sans-serif"
                 android:textSize="14sp"
                 android:textColor="@color/colorMainRed"
@@ -74,8 +74,8 @@
             <ImageButton
                 android:layout_width="@dimen/btn_ctr_room_size"
                 android:layout_height="@dimen/btn_ctr_room_size"
-                android:id="@+id/btn_purchase_credit"
-                android:src="@drawable/ctr_purchase_credit"
+                android:id="@+id/btn_sync"
+                android:src="@drawable/ctr_transfer"
                 android:scaleType="fitCenter"
                 android:background="@android:color/transparent"
                 android:layout_marginTop="@dimen/ctr_btn_mrgn"
@@ -86,7 +86,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/ctr_purchase_credit"
+                android:text="@string/sync_sync"
                 android:textColor="@color/colorMainRed"
                 android:fontFamily="sans-serif"
                 android:textSize="14sp"
@@ -97,26 +97,26 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center">
-            <ImageButton
-                android:layout_width="@dimen/btn_ctr_room_size"
-                android:layout_height="@dimen/btn_ctr_room_size"
-                android:id="@+id/btn_add_balance"
-                android:src="@drawable/ctr_add_balance"
-                android:scaleType="fitCenter"
-                android:background="@android:color/transparent"
-                android:layout_marginTop="@dimen/ctr_btn_mrgn"
-                android:layout_marginLeft="@dimen/ctr_btn_mrgn"
-                android:layout_marginRight="@dimen/ctr_btn_mrgn"
-                android:layout_marginBottom="@dimen/ctr_btn_mrgn_btm"
-                android:clickable="true" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/ctr_add_balance"
-                android:textColor="@color/colorMainRed"
-                android:fontFamily="sans-serif"
-                android:textSize="14sp"
-                android:textAllCaps="true"/>
+            <!--<ImageButton-->
+                <!--android:layout_width="@dimen/btn_ctr_room_size"-->
+                <!--android:layout_height="@dimen/btn_ctr_room_size"-->
+                <!--android:id="@+id/btn_add_balance"-->
+                <!--android:src="@drawable/ctr_transfer"-->
+                <!--android:scaleType="fitCenter"-->
+                <!--android:background="@android:color/transparent"-->
+                <!--android:layout_marginTop="@dimen/ctr_btn_mrgn"-->
+                <!--android:layout_marginLeft="@dimen/ctr_btn_mrgn"-->
+                <!--android:layout_marginRight="@dimen/ctr_btn_mrgn"-->
+                <!--android:layout_marginBottom="@dimen/ctr_btn_mrgn_btm"-->
+                <!--android:clickable="true" />-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="  "-->
+                <!--android:textColor="@color/colorMainRed"-->
+                <!--android:fontFamily="sans-serif"-->
+                <!--android:textSize="14sp"-->
+                <!--android:textAllCaps="true"/>-->
         </LinearLayout>
     </LinearLayout>
 
