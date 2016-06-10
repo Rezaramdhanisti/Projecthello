@@ -258,7 +258,7 @@ public class LoginActivity extends AppCompatActivity implements UserLoginTask.IU
 
         this.startActivity(loggedIn);
 
-        Toast.makeText(this.getApplicationContext(), "HELL-O" + name, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this.getApplicationContext(), "Selamat Bergabung" , Toast.LENGTH_SHORT).show();
 //        Snackbar snackbar = Snackbar
 //                .make(coordinatorLayout, "Welcome to AndroidHive", Snackbar.LENGTH_LONG);LENGTH_LONG
 

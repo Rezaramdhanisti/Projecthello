@@ -16,155 +16,14 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6b5d824-125a-497f-8b90-8e0ce1308e54" name="Default" comment="percobaan tinggal sync">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/dodons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dodon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cardview_v7_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/Data/DatabaseHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/DemoRecycleActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/DividerItemDecoration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/Domain/Transaction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/Domain/Transactions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/HomePage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/Movie.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/MoviesAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/SyncPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/api/SyncApi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/models/TransactionPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/data_list.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home_page.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_transaction_page.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/movie_list_row.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/DialogTuna.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/Facebooklogin/LoginActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/Facebooklogin/PrefUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/Facebooklogin/UserLoginFacebook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/FragmentConfirmation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/FragmentForgetPassword.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/FragmentPayment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/FragmentPurchaseCredit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/FragmentRegister.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/FragmentTopUp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/FragmentTransfer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/FragmentUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/LoginCantActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/MKIOS/FragmentLogin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/MKIOS/FragmentMKiosDashBoard.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/MKIOS/FragmentNext.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/MKIOS/FragmentRiwayat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/MKIOS/FragmentStockMkios.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/MKIOS/UserLoginMKios.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/models/FragmentAgent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/models/FragmentHadiah.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/models/FragmentNotifikasi.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/models/FragmentPengaturan.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/models/FragmentPromo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/models/Fragment_souvenir.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/models/Fragmentpopup.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/models/Fragmenttopupdeposit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/models/Fragmenttopuprs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/models/MyApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_success.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_tuna.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_agent.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_confirmation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_fragment_next.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_fragment_notifikasi.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_fragment_souvenir.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_hadiah_tunai.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_payment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pengaturan.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_promo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_purchase_credit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_top_up_deposit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_topup.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_transfer.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_user.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/login_can_not_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/mkios_frag_credit_transfer.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/mkios_frag_dashboard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/mkios_frag_login.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/mkios_frag_ret_stock.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/riwayat_transaksi.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/top_up_rs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/values/array.xml" afterPath="" />
+    <list default="true" id="e6b5d824-125a-497f-8b90-8e0ce1308e54" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Mokes-master/Kodrindonesia/Mokes-master/build.gradle" afterPath="$PROJECT_DIR$/Documents/Mokes-master/Kodrindonesia/Mokes-master/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documents/Mokes-master/build.gradle" afterPath="$PROJECT_DIR$/Documents/Mokes-master/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/androidTest/java/com/tunatech/mokes/ApplicationTest.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/androidTest/java/com/tunatech/mokes/ApplicationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/DialogTuna.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/DialogTuna.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/Domain/Authentication.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/Domain/Authentication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/Domain/UserLoginTask.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/Domain/UserLoginTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/FragmentConfirmation.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/FragmentConfirmation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/FragmentControlRoom.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/FragmentControlRoom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/FragmentForgetPassword.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/FragmentForgetPassword.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/FragmentPayment.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/FragmentPayment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/FragmentPurchaseCredit.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/FragmentPurchaseCredit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/FragmentRegister.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/FragmentRegister.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/FragmentTopUp.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/FragmentTopUp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/FragmentTransfer.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/FragmentTransfer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/FragmentUser.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/FragmentUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/LoginActivity.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/LoginCantActivity.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/LoginCantActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/MKIOS/FragmentLogin.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/MKIOS/FragmentLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/MKIOS/FragmentMKiosDashBoard.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/MKIOS/FragmentMKiosDashBoard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/MKIOS/UserLoginMKios.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/MKIOS/UserLoginMKios.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/MainActivity.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/java/com/tunatech/mokes/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/res/layout/app_bar_main.xml" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/res/layout/app_bar_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/res/layout/login_can_not_activity.xml" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/res/layout/login_can_not_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/test/java/com/tunatech/mokes/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/test/java/com/tunatech/mokes/ExampleUnitTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/build.gradle" afterPath="$PROJECT_DIR$/Kodrindonesia/Mokes-master/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_control_room.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_control_room.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/splash_screen.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/splash_screen.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/com/tunatech/mokes/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/app/src/test/java/com/tunatech/mokes/ExampleUnitTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/kodrindonesia/mokes/ApplicationTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/Reza/leo/ApplicationTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/Domain/Authentication.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/Domain/Authentication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/Domain/UserLoginTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/Domain/UserLoginTask.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/FragmentControlRoom.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/FragmentControlRoom.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/LoginActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/MainActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/Users.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/Users.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/api/Api.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/api/Api.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/api/UsersApi.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/api/UsersApi.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/models/Popupactivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/models/Popupactivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/models/SplashScreen.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/models/SplashScreen.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/kodrindonesia/mokes/models/User.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/models/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/facebooklogin.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_recycle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/MainActivity.java" />
     </list>
     <ignored path="hello.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -185,6 +44,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/Reza/leo/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="165" column="17" selection-start-line="165" selection-start-column="17" selection-end-line="165" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SyncApi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/Reza/leo/api/SyncApi.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -217,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersApi.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UsersApi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/Reza/leo/api/UsersApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45698926">
+            <state vertical-scroll-proportion="0.0">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -249,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/Reza/leo/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="179" column="21" selection-start-line="179" selection-start-column="21" selection-end-line="179" selection-end-column="21" />
+            <state vertical-scroll-proportion="-0.9749104">
+              <caret line="260" column="73" selection-start-line="260" selection-start-column="73" selection-end-line="260" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -1974,13 +1843,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/DialogTuna.java" />
         <option value="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-in/values-in.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/models/User.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/api/Api.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/SyncPage.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/api/SyncApi.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/api/UsersApi.java" />
         <option value="$PROJECT_DIR$/Kodrindonesia/Mokes-master/app/src/main/res/layout/app_bar_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/Reza/leo/LoginActivity.java" />
       </list>
     </option>
   </component>
@@ -2016,8 +1885,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
@@ -2440,6 +2309,13 @@
       <option name="number" value="Default" />
       <updated>1464782407258</updated>
     </task>
+    <task id="LOCAL-00001" summary="percobaan tinggal sync">
+      <created>1465544688945</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1465544688945</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2469,8 +2345,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2776,14 +2652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/Reza/leo/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="186" column="52" selection-start-line="186" selection-start-column="52" selection-end-line="186" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/Reza/leo/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2823,14 +2691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/Reza/leo/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="179" column="21" selection-start-line="179" selection-start-column="21" selection-end-line="179" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -2895,11 +2755,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/Reza/leo/api/UsersApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45698926">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/Reza/leo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="165" column="17" selection-start-line="165" selection-start-column="17" selection-end-line="165" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/Reza/leo/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9749104">
+          <caret line="260" column="73" selection-start-line="260" selection-start-column="73" selection-end-line="260" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>

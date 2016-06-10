@@ -163,6 +163,7 @@ public class MainActivity extends AppCompatActivity
         //Back to login
         Intent loginIntent = new Intent(this, LoginActivity.class);
         startActivity(loginIntent);
+        finish();
     }
     private void recyclebro()   {
 
